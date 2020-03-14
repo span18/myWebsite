@@ -219,7 +219,7 @@ img {
   overflow: hidden;
 }*/
 
-					/* TYPEWRITTER TEXT */
+					/*HOME PAGE - TYPEWRITTER TEXT */
 #main-title-container {
 	width: 100%;
 	height: auto;
@@ -242,7 +242,7 @@ img {
 	
 }
 
-					 /* FIXED LOGO & EMAIL SECTION */ 
+					 /* HOME PG - FIXED LOGO & EMAIL SECTION */ 
 #fixed {
   overflow: hidden;
   background-color: #fff;
@@ -332,10 +332,29 @@ img {
 	font-size: 20px;
 	font-weight: 200;
 	text-align: center;
+	line-height: 1.5;
 	/*-webkit-backface-visibility: hidden;*/
 }
 
-/* Colored sections */
+.background-des {
+	background-color: #404e9c;
+	/*opacity: 0.4;*/
+	color: #fff;
+}
+
+.background-res {
+	background-color: #343f7f;
+	/*opacity: 0.4;*/
+	color: #fff;
+}
+
+.background-old {
+	background-color: #252d5b;
+	/*opacity: 0.8;*/
+	color: #fff;
+}
+
+					/* Colored sections */
 
 .st-color,
 .st-deco{
