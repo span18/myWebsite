@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -328,6 +329,11 @@ img {
 
 .column-one p, .column-two p, .column-three p {
 	padding: 10px 10px;
+	margin: 0px 0px;
+}
+
+.column-one h2, .column-two h2, .column-three h2 {
+	margin-bottom: 8px;
 }
 
 .row:after {
@@ -336,10 +342,17 @@ img {
   clear: both;
 }
 
+.logo-1, .logo-2, .logo-3 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	background-color: #404e9c;
+	padding-top: 10px;
+	margin-left: 35%;
+}
 
 .background-des {
 	background-color: #404e9c;
-	padding-top: 10px; 
 	/*opacity: 0.4;*/
 	color: #fff;
 }
