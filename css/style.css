@@ -342,6 +342,16 @@ img {
   clear: both;
 }
 
+.column-one img {
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
 .column-two img {
 	width: 150px;
 	height: auto;
@@ -350,7 +360,6 @@ img {
 	left: 10px;
 	margin-bottom: 0;
 	margin-top: 0;
-	
 }
 
 .logo-1, .logo-3 {
@@ -463,12 +472,17 @@ img {
 		margin: 0;
 		padding: 10px;
 		height: auto;
-	}
+}
 
-	.column-two img {
-		width: 100px;
-		height: auto;;
-	}
+.column-one img {
+	width: 100px;
+	height: auto;;
+}
+
+.column-two img {
+	width: 100px;
+	height: auto;
+}
 
 	.container > a {
 		font-size: 13px;
