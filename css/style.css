@@ -329,7 +329,7 @@ img {
 
 .column-one p, .column-two p, .column-three p {
 	padding: 10px 10px;
-	margin: 0px 0px;
+	margin: 0px;
 }
 
 .column-one h2, .column-two h2, .column-three h2 {
@@ -452,24 +452,24 @@ img {
 
 @media screen and (max-width: 400px) {
 	.column-one, .column-two, .column-three {
-		float: none;
 		width: 100%;
+		float: none;
 		height: auto;
 	}
 	
 @media screen and (max-width: 400px) {
-	.row p {
-		float: none;
+	.row p, {
 		width: 100%;
+		margin: 0;
+		padding: 10px;
 		height: auto;
 	}
 
-	.st-panel p {
-		width: 90%;
-		left: 5%;
-		margin-top: 0;
+	.column-two img {
+		width: 100px;
+		height: auto;;
 	}
-	
+
 	.container > a {
 		font-size: 13px;
 	}
