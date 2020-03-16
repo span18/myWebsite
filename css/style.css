@@ -171,7 +171,7 @@ body {
 
 					/* LARGER TRIANGLE */
 
-.st-deco {
+/*.st-deco {
 	width: 15%;
 	height: 20%;
 	position: absolute;
@@ -184,7 +184,7 @@ body {
 	-o-transform: translateY(-50%) rotate(45deg);
 	-ms-transform: translateY(-50%) rotate(45deg);
 	transform: translateY(-50%) rotate(45deg);
-}
+}*/
 
 
 					/* HERO IMAGE */
@@ -342,7 +342,18 @@ img {
   clear: both;
 }
 
-.logo-1, .logo-2, .logo-3 {
+.column-two img {
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	margin-bottom: 0;
+	margin-top: 0;
+	
+}
+
+.logo-1, .logo-3 {
 	width: 100px;
 	height: 100px;
 	background-color: red;
@@ -439,11 +450,20 @@ img {
 	display: block;
 }*/
 
-@media screen and (max-width: 740px) {
-	.st-panel h2 {
-		font-size: 42px;
+@media screen and (max-width: 400px) {
+	.column-one, .column-two, .column-three {
+		float: none;
+		width: 100%;
+		height: auto;
 	}
 	
+@media screen and (max-width: 400px) {
+	.row p {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+
 	.st-panel p {
 		width: 90%;
 		left: 5%;
