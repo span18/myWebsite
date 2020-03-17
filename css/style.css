@@ -362,6 +362,16 @@ img {
 	margin-top: 0;
 }
 
+.column-three img {
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
 .logo-1, .logo-3 {
 	width: 100px;
 	height: 100px;
