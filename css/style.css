@@ -195,12 +195,12 @@ body {
 }*/
 
 img {
-    background-image: url("../images/newbanner.jpg");
+    background-image: url("../images/rsz_banner-image.jpg");
 	/*background-position: center;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	top: 103px;
+	top: 0;
 	max-width: 100%;
 	height: auto;
 }
