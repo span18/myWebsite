@@ -225,11 +225,16 @@ img {
 	width: 100%;
 	height: auto;
 	position: absolute;
-	top: 25%;
+	top: 50%;
 	left: 0;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
+}
+
+#main-title-container h2 {
+	font-size: 60px;
+	color: #fff;
+	letter-spacing: 0.5;
+	text-transform: uppercase;
 }
 
 .type-wrap {
