@@ -215,9 +215,9 @@ img {
 	height: auto;
 }
 
-#main-title-container h2 {
+#main-title-container {
 	font-size: 60px;
-	color: #fff;
+	color: black;
 	letter-spacing: 0.5;
 	text-transform: uppercase;
 }
