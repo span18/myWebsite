@@ -215,6 +215,15 @@ img {
 	height: auto;
 }
 
+.main-title {
+	position: absolute;
+	top: 28%;
+	left: 42%;
+	font-size: 7em;
+	color: black;
+	letter-spacing: 0.5;
+}
+
 #main-title-container {
 	position: absolute;
 	top: 38%;
@@ -223,6 +232,7 @@ img {
 	color: black;
 	letter-spacing: 0.5;
 	text-transform: uppercase;
+	display: none;
 }
 
 /*.type-wrap {
