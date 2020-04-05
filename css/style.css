@@ -216,6 +216,9 @@ img {
 }
 
 #main-title-container {
+	position: absolute;
+	top: 38%;
+	left: 42%;
 	font-size: 60px;
 	color: black;
 	letter-spacing: 0.5;

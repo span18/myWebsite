@@ -635,7 +635,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      self.backSpeed = self.options.backSpeed;
 	
 	      // only backspace what doesn't match the previous string
-	      self.smartBackspace = self.options.smartBackspace;
+	      // self.smartBackspace = self.options.smartBackspace;
 	
 	      // amount of time to wait before backspacing
 	      self.backDelay = self.options.backDelay;
@@ -801,12 +801,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /**
 	   * @property {number} startDelay time before typing starts in milliseconds
 	   */
-	  startDelay: 0,
+	  startDelay: 50,
 	
 	  /**
 	   * @property {number} backSpeed backspacing speed in milliseconds
 	   */
-	  backSpeed: 10,
+	  backSpeed: 50,
 	
 	  /**
 	   * @property {boolean} smartBackspace only backspace what doesn't match the previous string
