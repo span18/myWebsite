@@ -197,6 +197,7 @@ body {
 .banner-container {
 	width: 100%;
 	max-height: auto;
+	background-color: #33418D;
 	position: absolute;
 	top: 63px;
 	left: 0;
@@ -204,13 +205,13 @@ body {
 }
 
 img {
-    background-image: url("../images/rsz_banner.jpg");
-	/*background-position: center;*/
+    background-image: url("../images/background.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*position: relative;
+	position: relative;
 	top: 0px;
-	left: 0px;*/
+	left: 0px;
 	width: 100%;
 	height: auto;
 }
