@@ -198,20 +198,17 @@ body {
 	width: 100%;
 	height: 100%;
 	/*background-image: #252d5b;*/
-	position: absolute;
-	top: 130px;
-	left: 0;
 	text-align: center;
 }
 
- .banner-container h1 {
+/* .banner-container h1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	font-size: 130px;
 	z-index: 1;
 	color: white;
-}
+}*/
 
 /*:root {
   --primary-color: #fff;
@@ -241,7 +238,7 @@ h1::before {
     mix-blend-mode: screen;
 }*/
 
-.overlay {
+/*.overlay {
     width: 100%;
     position: absolute;
     top: 0;
@@ -251,7 +248,7 @@ h1::before {
     background-image: linear-gradient(#b7bde1, #252d5b);
     transform: scale(.5);
     animation: .5s slideIn ease-in-out forwards, 2s skewBg ease-in-out;
-}
+}*/
 
 /*@keyframes skewBg {
   0% {
@@ -275,17 +272,17 @@ h1::before {
   }
 }
 
-/*img {
+img {
    	background-image: url("../images/hero.jpg");
 	width: 100%;
 	height: auto;
-	position: relative;
+	/*position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 0px;*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}*/
+}
 
 /*.main-title {
 	position: absolute;
