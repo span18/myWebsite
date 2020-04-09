@@ -196,14 +196,79 @@ body {
 
 .banner-container {
 	width: 100%;
-	height: auto;
-	background-color: #33418D;
+	height: 100%;
+	/*background-color: rgba(51, 65, 141);*/
 	position: absolute;
-	top: 0;
+	top: 130px;
 	left: 0;
 	text-align: center;
+  	background-color: var(--complimentary-color);
+  	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  	display: flex;
 }
 
+:root {
+  --primary-color: #fff;
+  --secondary-color: #404e9c;
+  --complimentary-color: #fff;
+}
+
+.banner-container h1 {
+  font-size: 150px;
+  color: var(--primary-color);
+  transform: translateY(-1000px);
+  animation: 1.2s slideIn ease-in-out forwards 1s;
+  z-index: 10;
+  opacity: 0;
+  position: relative;
+  top: 130px;
+}
+
+h1::before {
+    content: '';
+    width: 0%;
+    height: 76px;
+    background-color: var(--secondary-color);
+    position: absolute;
+    bottom: -10px;
+    animation: 1s underline ease-in-out forwards 2s;
+    mix-blend-mode: screen;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-color);
+    transform: scale(.5);
+    animation: .5s slideIn ease-in-out forwards, 1s skewBg ease-in-out;
+}
+
+@keyframes skewBg {
+  0% {
+    transform: scale(.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes underline {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes slideIn {
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 /*img {
    	background-image: url("../images/hero.jpg");
 	width: 100%;
@@ -271,7 +336,6 @@ body {
 	right: 2%;
 	color: black;
 }
-
 
 
 					/* HOME PAGE LINKS 
