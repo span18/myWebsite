@@ -213,15 +213,31 @@ body {
     margin: 0.625rem;
 }
 .hero-title {
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 600;
-    margin-bottom: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
+
 .hero-subtitle {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
-    color: #fff;
+	font-size: 2rem;
+	font-weight: 200;
+	margin-top: 1rem;
+	-webkit-animation: mainFadeIn 2s forwards;
+	-o-animation: mainFadeIn 2s forwards;
+	animation: mainFadeIn 2s forwards;
+	animation-delay: 2.5s;
+	opacity: 0;
+}
+    
+  @keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
@@ -286,6 +302,19 @@ h1::before {
     opacity: 1;
   }
 }
+
+					/*LOWER TEXT ONTO PAGE */
+.hero-title {
+  /*--primary-color: #fff;*/
+  transform: translateY(-1000px);
+  animation: 1.2s slideIn ease-in-out forwards 1s;
+  animation-delay: 1s;
+  z-index: 10;
+  opacity: 0;
+  position: relative;
+}
+					/* FINISHED */
+
 
 /*.main-title {
 	position: absolute;
@@ -551,6 +580,15 @@ h1::before {
 	float: left;
 	display: block;
 }*/
+
+@media screen and (max-width: 700px) {
+	.hero-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+	}
+}
 
 @media screen and (max-width: 400px) {
 	.column-one, .column-two, .column-three {
