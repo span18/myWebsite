@@ -207,13 +207,13 @@ body {
 
 .hero-content {
     position: relative; 
-    font-family: 'Segoe UI', Roboto, Open Sans, sans-serif;
     color: white;
     text-align: center;
     margin: 0.625rem;
     z-index: 0;
 }
 .hero-title {
+    font-family: 'Roboto', Open Sans, sans-serif;
     font-size: 125px;
     font-weight: 600;
     margin: 0;
@@ -222,6 +222,7 @@ body {
 }
 
 .hero-subtitle {
+	font-family: 'Segoe UI', Roboto, Open Sans, sans-serif;
 	font-size: 35px;
 	font-weight: 200;
 	letter-spacing: 2px;
