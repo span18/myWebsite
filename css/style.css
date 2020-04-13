@@ -208,6 +208,7 @@ body {
 
 .hero-content {
     position: relative; 
+    cursor: none;
     color: white;
     text-align: center;
     margin: 0.625rem;
@@ -216,7 +217,8 @@ body {
 .hero-title {
     font-family: 'Roboto', Open Sans, sans-serif;
     color: #ffa31a;
-    font-size: 125px;
+    text-shadow: 2px 2px;
+    font-size: 100px;
     font-weight: 800;
     margin: 0;
     letter-spacing: 2px;
@@ -336,41 +338,7 @@ body {
 
 
 					/* HOME PAGE LINKS 
-/*#links {
-	position: absolute;
-	width: 100%;
-	bottom: 15%;
-	margin: 0;
-	list-style-type: none;
-	font-size: 16px;
-	text-align: center;
-	font-family: 'Marvel', Arial, sans-serif;
-	display: flex;
-  	justify-content: center;
-	overflow: hidden;
-}*/
 
-/*#links a {
-	float: right;
-}*/
-
-/*.float-one {
-	margin: 10px;
-	width: 35%;
-	padding-right: 25px;
-	border: 1px solid black;
-	text-decoration: none;
-	text-align: center;
-}
-
-.float-two {
-	margin: 10px;
-	width: 35%;
-	padding-right: 25px;
-	border: 1px solid black;
-	text-decoration: none;
-	text-align: center;
-}*/
 
 
 
