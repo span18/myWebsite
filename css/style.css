@@ -6,6 +6,7 @@
 body {
 	width: 100%;
 	margin: 0;
+	line-height: 1.2em;
 
 }
 
@@ -222,6 +223,9 @@ body {
     text-transform: uppercase;
     transform: translateY(-1000px);
     animation: 1.2s slideDown ease-in-out forwards 1s;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    line-height: 1em;
 }
 
 .hero-subtitle {
@@ -245,22 +249,22 @@ body {
   }
 }
 
-h1.hero-title::before {
+/*h1.hero-title::before {
     content: '';
     width: 0%;
-    height: 76px;
+    height: 144px;
     background-color: #515EA9;
     position: absolute;
-    bottom: -15px;
+    bottom: -132px;
     animation: 1s underline ease-in-out forwards 2s;
     mix-blend-mode: screen;
-}
+}*/
 
-@keyframes underline {
+/*@keyframes underline {
   100% {
     width: 100%;
   }
-}
+}*/
 
 @keyframes slideDown {
   100% {
