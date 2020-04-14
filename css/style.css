@@ -6,8 +6,6 @@
 body {
 	width: 100%;
 	margin: 0;
-	line-height: 1.2em;
-
 }
 
 
@@ -342,7 +340,7 @@ body {
 
 
 
-.alideshow-container {
+.slideshow-container {
 	width: 100%;
 	height: auto;
 	background-color: #fff;
@@ -350,7 +348,12 @@ body {
 }
 
 .dot {
-  display: none;
+	display: inline-block;
+color: black;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  opacity: 1;
 }
 
 .active {
