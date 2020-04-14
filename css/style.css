@@ -337,9 +337,42 @@ body {
 }
 
 
-					/* HOME PAGE LINKS 
+					/* HOME PAGE LINKS */
 
 
+
+
+.alideshow-container {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	text-align: center;
+}
+
+.dot {
+  display: none;
+}
+
+.active {
+  background-color: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
 
 
 					/* SERVICES PAGE */
