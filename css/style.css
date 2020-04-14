@@ -313,8 +313,6 @@ body {
 .slideshow-container {
 	width: 100%;
 	height: auto;
-	position: relative;
-	background-size: cover;
 	background-color: #fff;
 	text-align: center;
 }
@@ -349,13 +347,12 @@ body {
   to {opacity: 1}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
 	.slideshow-container {
 		width: 100%;
 		height: auto;
 		text-align: center;
 		margin: 0;
-		padding: 0;
 	} .blah {
 		font-size: 100px;
 	} img {
