@@ -412,13 +412,13 @@ body {
 .column-one img {
 	width: 100%;
 	height: auto;
-	margin: 0;
+	padding-left: 10px;
 }
 
 .column-two img {
 	width: 100%;
 	height: auto;
-	margin: 0;
+	padding-left: 10px;
 }
 
 .column-three img {
