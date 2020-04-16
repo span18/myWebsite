@@ -418,13 +418,14 @@ body {
 .column-two img {
 	width: 100%;
 	height: auto;
-	padding-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .column-three img {
 	width: 100%;
 	height: auto;
-	margin: 0;
+	padding-right: 10px;
 }
 
 .logo-1, .logo-3 {
