@@ -442,7 +442,21 @@ button {
 }*/
 
 @media screen and (max-width: 740px) {
-	
+	.column-one, .column-two, .column-three {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.column-one img, .column-two img, .column-three img {
+		width: 100%;
+		height: auto;
+		padding: 0;
+	} 
+
+	button {
+		margin-bottom: 15px;
+	}
 }
 
 @media screen and (max-width: 400px) {
