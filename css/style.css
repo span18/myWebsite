@@ -378,22 +378,23 @@ body {
 	padding-right: 10px;
 }
 
+
 .background-des {
-	min-height: 204px;
+	min-height: 203px;
 	background-color: #404e9c;
 	/*opacity: 0.4;*/
 	color: #fff;
 }
 
 .background-res {
-	min-height: 204px;
+	min-height: 203px;
 	background-color: #343f7f;
 	/*opacity: 0.4;*/
 	color: #fff;
 }
 
 .background-old {
-	min-height: 204px;
+	min-height: 203px;
 	background-color: #252d5b;
 	/*opacity: 0.8;*/
 	color: #fff;
@@ -406,6 +407,7 @@ body {
 	color: black;
 }
 
+
 button {
 	font-family: 'Marvel', Arial, sans-serif;
 	font-size: 17.5px;
@@ -417,6 +419,7 @@ button {
 	background-color: #fff;
 	color: #404e9c;
 	border: 2px solid #404e9c;
+	display: inline-block;
 }
 
 .column-one:hover > h2,
@@ -442,7 +445,7 @@ button {
 }*/
 
 
-@media screen and (min-width: 1270px) {
+/*@media screen and (min-width: 1270px) {
 	.column-one p, .column-two p, .column-three p {
 		width: 100%;
 		min-height: 230px;
@@ -458,13 +461,13 @@ button {
 	} 
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 965px) {
 	.column-one h2, .column-two h2, .column-three h2 {
 		font-size: 20px;
 		background-color: red;
 	
 	} 
-}
+}*/
 
 @media screen and (max-width: 740px) {
 	.column-one, .column-two, .column-three {
