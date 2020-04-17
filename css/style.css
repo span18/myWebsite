@@ -449,11 +449,20 @@ button {
 		padding: 10px;
 	} 
 }
+
 @media screen and (max-width: 1024px) {
 	.column-one p, .column-two p, .column-three p {
 		width: 100%;
 		min-height: 282px;
 		padding: 10px;
+	} 
+}
+
+@media screen and (max-width: 960px) {
+	.column-one h2, .column-two h2, .column-three h2 {
+		font-size: 20px;
+		background-color: red;
+	
 	} 
 }
 
