@@ -442,6 +442,13 @@ button {
 }*/
 
 
+@media screen and (min-width: 1281px) {
+	.column-one p, .column-two p, .column-three p {
+		width: 100%;
+		min-height: 230px;
+		padding: 10px;
+	} 
+}
 @media screen and (max-width: 1024px) {
 	.column-one p, .column-two p, .column-three p {
 		width: 100%;
