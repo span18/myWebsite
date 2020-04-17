@@ -442,7 +442,7 @@ button {
 }*/
 
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1270px) {
 	.column-one p, .column-two p, .column-three p {
 		width: 100%;
 		min-height: 230px;
