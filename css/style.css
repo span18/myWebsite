@@ -2,6 +2,8 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+  a {color: inherit;
+  }
 
 body {
 	width: 100%;
@@ -381,7 +383,7 @@ body {
 	margin: 0;
 	color: #404e9c;
 	/*text-shadow: 1px 1px 1px rgba(151,24,64,0.2);*/
-	font-size: 18px;
+	font-size: 17.5px;
 	text-align: center;
 	line-height: 1.5em;
 	letter-spacing: 1.3px;
@@ -398,11 +400,11 @@ body {
 .column-one h2,
 .column-two h2,
 .column-three h2 {
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 800;
 	letter-spacing: 0.5px;
 	margin-bottom: 8px;
-	margin-top: 11px;
+	margin-top: 3px;
 }
 
 .column-one p,
@@ -448,9 +450,24 @@ body {
 }
 
 .background-des {
-	min-height: 209px;
+	min-height: 204px;
 	background-color: #404e9c;
 	/*opacity: 0.4;*/
+	color: #fff;
+}
+
+
+.background-res {
+	min-height: 204px;
+	background-color: #343f7f;
+	/*opacity: 0.4;*/
+	color: #fff;
+}
+
+.background-old {
+	min-height: 204px;
+	background-color: #252d5b;
+	/*opacity: 0.8;*/
 	color: #fff;
 }
 
@@ -461,54 +478,21 @@ body {
 	color: black;
 }
 
-.background-res {
-	background-color: #343f7f;
-	/*opacity: 0.4;*/
-	color: #fff;
-}
-
-.background-old {
-	min-height: 209px;
-	background-color: #252d5b;
-	/*opacity: 0.8;*/
-	color: #fff;
-}
-
 button {
+	font-family: 'Marvel', Arial, sans-serif;
+	font-size: 17.5px;
+	font-weight: 600;
+	letter-spacing: 2px;
 	margin-top: 10px;
 	padding: 5px;
 	text-decoration: none;
+	background-color: #fff;
+	color: #404e9c;
+	border: 2px solid #404e9c;
 }
 
-
-.column-one:hover > h2 {
-        animation-name: bounce;
-      /*  animation-timing-function: linear;*/
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-}
-
-@keyframes bounce {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-25px); }
-        100% { transform: translateY(0); }
-    }
-
-.column-two:hover > h2 {
-        animation-name: bounce;
-      /*  animation-timing-function: linear;*/
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-}
-
-@keyframes bounce {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-25px); }
-        100% { transform: translateY(0); }
-    }
-
-
-
+.column-one:hover > h2,
+.column-two:hover > h2,
 .column-three:hover > h2 {
         animation-name: bounce;
       /*  animation-timing-function: linear;*/
