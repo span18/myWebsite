@@ -441,6 +441,15 @@ button {
 	transform: translateY(5px);
 }*/
 
+
+@media screen and (max-width: 1024px) {
+	.column-one p, .column-two p, .column-three p {
+		width: 100%;
+		min-height: 282px;
+		padding: 10px;
+	} 
+}
+
 @media screen and (max-width: 740px) {
 	.column-one, .column-two, .column-three {
 		width: 100%;
