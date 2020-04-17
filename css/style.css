@@ -377,31 +377,41 @@ body {
 					/* SERVICES PAGE */
 .row {
 	width: 100%;
-
+	height: auto;
 	margin: 0;
 	color: #404e9c;
 	/*text-shadow: 1px 1px 1px rgba(151,24,64,0.2);*/
 	font-size: 18px;
-	font-weight: 200;
 	text-align: center;
-	line-height: 1.5;
+	line-height: 1.5em;
 	letter-spacing: 1.3px;
 }
 
-.column-one, .column-two, .column-three {
+.column-one,
+.column-two,
+.column-three {
 	width: 33.33%;
 	float: left;
 	display: block;
 }
 
-.column-one p, .column-two p, .column-three p {
+.column-one h2,
+.column-two h2,
+.column-three h2 {
+	font-size: 30px;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	margin-bottom: 8px;
+	margin-top: 11px;
+}
+
+.column-one p,
+.column-two p,
+.column-three p {
 	padding: 10px 10px;
 	margin: 0px;
 }
 
-.column-one h2, .column-two h2, .column-three h2 {
-	margin-bottom: 8px;
-}
 
 .row:after {
   content: "";
@@ -438,9 +448,17 @@ body {
 }
 
 .background-des {
+	min-height: 209px;
 	background-color: #404e9c;
 	/*opacity: 0.4;*/
 	color: #fff;
+}
+
+.background-des:hover,
+.background-res:hover,
+.background-old:hover {
+	background-color: #fff;
+	color: black;
 }
 
 .background-res {
@@ -450,9 +468,16 @@ body {
 }
 
 .background-old {
+	min-height: 209px;
 	background-color: #252d5b;
 	/*opacity: 0.8;*/
 	color: #fff;
+}
+
+button {
+	margin-top: 10px;
+	padding: 5px;
+	text-decoration: none;
 }
 
 
