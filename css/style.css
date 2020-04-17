@@ -2,8 +2,10 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-  a {color: inherit;
-  }
+
+a {
+  color: inherit;
+}
 
 body {
 	width: 100%;
@@ -121,12 +123,12 @@ body {
 }
 
 					/* IND SCREEN SIZE */
-.st-scroll,
+/*.st-scroll,
 .st-panel {
 	position: relative;
 	width: 100%;
 	height: 100%;
-}
+}*/
 					/* SCREEN SCROLL */
 /*.st-scroll {
 	top: 0;
@@ -310,71 +312,7 @@ body {
 					/* HOME PAGE LINKS */
 
 
-.blah {
-  font-family: 'Roboto', Open Sans, sans-serif;
-  text-transform: uppercase;
- color: blue;
-  font-size: 15px;
-  /*position: relative;
-  top: 10;
-  left: 25;*/
-  margin: 0;
-  
-                  
-}
 
-.slideshow-container {
-	width: 100%;
-	height: auto;
-	background-color: #fff;
-	text-align: center;
-}
-
-.dot {
-	display: inline-block;
-	color: black;
-	z-index: 1;
-	width: 55px;
-	height: 55px;
-	opacity: 1;
-}
-
-.active {
-  background-color: none;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 1s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .2} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .2} 
-  to {opacity: 1}
-}
-
-@media screen and (max-width: 770px) {
-	.slideshow-container {
-		width: 100%;
-		height: auto;
-		text-align: center;
-		margin: 0;
-	} .blah {
-		font-size: 100px;
-	} img {
-		width: 100%;
-		height: auto;
-		align-items: center;
-	}
-
-}
 
 					/* SERVICES PAGE */
 .row {
@@ -387,6 +325,7 @@ body {
 	text-align: center;
 	line-height: 1.5em;
 	letter-spacing: 1.3px;
+	display: block;
 }
 
 .column-one,
@@ -414,7 +353,6 @@ body {
 	margin: 0px;
 }
 
-
 .row:after {
   content: "";
   display: table;
@@ -440,22 +378,12 @@ body {
 	padding-right: 10px;
 }
 
-.logo-1, .logo-3 {
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	background-color: #404e9c;
-	padding-top: 10px;
-	margin-left: 35%;
-}
-
 .background-des {
 	min-height: 204px;
 	background-color: #404e9c;
 	/*opacity: 0.4;*/
 	color: #fff;
 }
-
 
 .background-res {
 	min-height: 204px;
@@ -513,7 +441,102 @@ button {
 	transform: translateY(5px);
 }*/
 
-					/* Colored sections */
+@media screen and (max-width: 740px) {
+	
+}
+
+@media screen and (max-width: 400px) {
+	.column-one, .column-two, .column-three {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.column-one img, .column-two img, .column-three img {
+		width: 100%;
+		height: auto;
+		padding: 0;
+	} 
+
+	button {
+		margin-bottom: 15px;
+	}
+}
+	
+@media screen and (max-width: 400px) {
+	.row p, {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 10px;
+} 
+
+					
+								/* PORTFOLIO PAGE */
+
+.title {
+  font-family: 'Roboto', Open Sans, sans-serif;
+  text-transform: uppercase;
+ color: blue;
+  font-size: 15px;
+  /*position: relative;
+  top: 10;
+  left: 25;*/
+  margin: 0;
+}
+
+.slideshow-container {
+	width: 100%;
+	height: 1000px;	/* NEED TO ADJUST */
+	background-color: #fff;
+	text-align: center;
+}
+
+.dot {
+	display: inline-block;
+	color: black;
+	z-index: 1;
+	width: 55px;
+	height: 55px;
+	opacity: 1;
+}
+
+.active {
+  background-color: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 770px) {
+	.slideshow-container {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		margin: 0;
+	} .blah {
+		font-size: 100px;
+	} img {
+		width: 100%;
+		height: auto;
+		align-items: center;
+	}
+
+}
 
 
 
@@ -543,22 +566,6 @@ button {
 	}
 }
 
-@media screen and (max-width: 400px) {
-	.column-one, .column-two, .column-three {
-		width: 100%;
-		float: none;
-		height: auto;
-	}
-	
-@media screen and (max-width: 400px) {
-	.row p, {
-		width: 100%;
-		margin: 0;
-		padding: 10px;
-		height: auto;
-}
-
-
 	.container > a {
 		font-size: 13px;
 	}
@@ -566,23 +573,5 @@ button {
 @media screen and (max-width: 740px) {
 	.container > a {
 		font-size: 10px;
-	}
-	
-	.st-deco{
-		width: 120px;
-		height: 120px;
-		margin-left: -60px;
-	}
-}
-
-@media screen and (max-width: 740px) {
-	.typewrite {
-		text-align: center;
-		width: 100%;
-	font-family: 'roboto', Arial, sans-serif;
-	font-size: 5px;
-	letter-spacing: 0.2;
-	font-weight: 100;
-	margin: 0;
 	}
 }
