@@ -498,7 +498,7 @@ button {
 		padding: 10px;
 		background-color: orange;
 	} button {
-		margin-top: 50px;
+		margin-top: 44px;
 	}
 }
 
@@ -516,6 +516,15 @@ button {
 		position: relative;
 		top: -106px;
 		left: 0;
+}
+
+@media screen and (max-width: 810px) {
+	.column-one p, .column-three p {
+		width: 100%;
+		min-height: 362px;
+		padding: 10px;
+		background-color: blue;
+	} 
 }
 
 	.column-one img, .column-two img, .column-three img {
