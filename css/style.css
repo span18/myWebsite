@@ -459,7 +459,6 @@ button {
 		width: 100%;
 		min-height: 230px;
 		padding: 10px;
-		background-color: blue
 	} 
 }
 
@@ -468,7 +467,6 @@ button {
 		width: 100%;
 		min-height: 256px;
 		padding: 10px;
-		background-color: pink
 	} 
 }
 
@@ -477,7 +475,6 @@ button {
 		width: 100%;
 		min-height: 281px;
 		padding: 10px;
-		background-color: red;
 	} 
 }
 
@@ -497,13 +494,12 @@ button {
 		width: 100%;
 		min-height: 309px;
 		padding: 10px;
-		background-color: orange;
 	} button {
 		margin-top: 44px;
 	} .hide {
 		width: 100%;
 		height: 25px;
-		background-color: blue;
+		background-color: #fff;
 		position: relative;
 		top: -81px;
 		left: 0;
@@ -514,17 +510,16 @@ button {
 @media screen and (max-width: 888px) {
 	.column-one p, .column-three p {
 		width: 100%;
-		min-height: 340px;
+		min-height: 350px;
 		padding: 10px;
-		background-color: turquoise;
 	} .hide {
 		width: 100%;
 		height: 25px;
-		background-color: blue;
+		background-color: #fff;
 		position: relative;
 		top: -90px;
 		left: 0;
-	} 
+	}
 }
 
 @media screen and (max-width: 810px) {
@@ -532,48 +527,46 @@ button {
 		width: 100%;
 		min-height: 362px;
 		padding: 10px;
-		background-color: blue;
 	} 
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 786px) {
 	.column-one p, .column-three p {
 		width: 100%;
-		min-height: 362px;
+		min-height: 387px;
 		padding: 10px;
-		background-color: red;
-	} 
+	} .column-one h2, .column-two h2, .column-three h2 {
+		font-size: 21px;
+		font-weight: 800;
+		letter-spacing: 0.5px;
+		margin-bottom: 8px;
+		margin-top: 3px;
+		}
 }
 
-
-
-
-
-@media screen and (max-width: 400px) {
-	.column-one, .column-two, .column-three {
+@media screen and (max-width: 750px) {
+	.column-one p, .column-three p {
 		width: 100%;
-		height: auto;
+		min-height: auto;
+		padding: 10px;
+	} .column-one, .column-two, .column-three {
+		width: 100%;
 		float: none;
-	}
-
-	.column-one img, .column-two img, .column-three img {
-		width: 100%;
-		height: auto;
-		padding: 0;
-	} 
-
-	button {
-		margin-bottom: 15px;
-	}
+		/*font-size: 21px;
+		font-weight: 800;
+		letter-spacing: 0.5px;
+		margin-bottom: 8px;
+		margin-top: 3px;*/
+		} button {
+			margin-top: 12px;
+			margin-bottom: 25px;
+		} .hide {
+			display: none;
+		}
 }
+
 	
-@media screen and (max-width: 400px) {
-	.row p {
-		width: 100%;
-		height: auto;
-		margin: 0;
-		padding: 10px;
-} 
+
 
 					
 								/* PORTFOLIO PAGE */
