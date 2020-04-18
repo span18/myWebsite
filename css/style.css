@@ -557,12 +557,15 @@ button {
 		letter-spacing: 0.5px;
 		margin-bottom: 8px;
 		margin-top: 3px;*/
-		} button {
+	} button {
 			margin-top: 12px;
 			margin-bottom: 25px;
-		} .hide {
+	} .hide {
 			display: none;
-		}
+	} .column-one img, .column-two img, .column-three img {
+		width: 100%;
+		padding: 0;
+	}
 }
 
 	
