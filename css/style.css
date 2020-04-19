@@ -313,10 +313,21 @@ body {
 @media screen and (max-width: 745px) {
 	.hero-title {
 		font-size: 70px;
-    	font-weight: 800;
+    	border-top: 2px solid white;
+    	border-bottom: 2px solid white;
+    	padding: 8px 0px;
 	} .hero-subtitle {
 		font-size: 20px;
-		font-weight: 200;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.hero-title {
+		font-size: 45px;
+    	font-weight: 200;
+	} .hero-subtitle {
+		font-size: 20px;
+		font-weight: 400;
 	}
 }
 
@@ -669,15 +680,6 @@ button {
 	float: left;
 	display: block;
 }*/
-
-@media screen and (max-width: 700px) {
-	.hero-title {
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 0;
-    letter-spacing: 2px;
-	}
-}
 
 	.container > a {
 		font-size: 13px;
