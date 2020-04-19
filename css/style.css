@@ -310,8 +310,23 @@ body {
 	color: black;
 }
 
+@media screen and (max-width: 745px) {
+	.hero-title {
+		font-size: 70px;
+    	font-weight: 800;
+	} .hero-subtitle {
+		font-size: 20px;
+		font-weight: 200;
+	}
+}
 
-					/* HOME PAGE LINKS */
+/*736
+734
+684
+667*/
+
+
+
 
 
 
