@@ -675,7 +675,7 @@ button {
 
 @media screen and (max-width: 450px) {
 	.container > a {
-		font-size: 14px;
+		font-size: 12px;
 		letter-spacing: 1px;
 	}
 }
