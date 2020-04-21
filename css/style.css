@@ -314,6 +314,8 @@ body {
 		height: 500px; 
 	} .hero-title {
 		font-size: 65px;
+    	border-top: 2px solid white;
+    	border-bottom: 2px solid white;
     	margin-top: -60px;
     	text-shadow: none;
 	} .hero-subtitle {
