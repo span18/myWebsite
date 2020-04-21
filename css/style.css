@@ -490,25 +490,19 @@ button {
 
 @media screen and (max-width: 1330px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 230px;
-		padding: 10px;
 	} 
 }
 
 @media screen and (max-width: 1180px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 256px;
-		padding: 10px;
 	} 
 }
 
 @media screen and (max-width: 1090px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 281px;
-		padding: 10px;
 	} 
 }
 
@@ -525,57 +519,42 @@ button {
 
 @media screen and (max-width: 983px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 309px;
 		padding: 10px;
 	} button {
 		margin-top: 44px;
 	} .hide {
-		width: 100%;
-		height: 25px;
-		background-color: #fff;
 		position: relative;
 		top: -81px;
-		left: 0;
 	}
 }
 
 
 @media screen and (max-width: 888px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 350px;
-		padding: 10px;
 	} .hide {
-		width: 100%;
-		height: 25px;
-		background-color: #fff;
 		position: relative;
 		top: -90px;
-		left: 0;
 	}
 }
 
 @media screen and (max-width: 810px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 362px;
-		padding: 10px;
 	} 
 }
 
 @media screen and (max-width: 786px) {
 	.column-one p, .column-three p {
-		width: 100%;
 		min-height: 387px;
-		padding: 10px;
 	} .column-one h2, .column-two h2, .column-three h2 {
 		font-size: 21px;
 		font-weight: 800;
 		letter-spacing: 0.5px;
 		margin-bottom: 8px;
 		margin-top: 3px;
-		}
+	}
 }
 
 @media screen and (max-width: 750px) {
@@ -586,11 +565,6 @@ button {
 	} .column-one, .column-two, .column-three {
 		width: 100%;
 		float: none;
-		/*font-size: 21px;
-		font-weight: 800;
-		letter-spacing: 0.5px;
-		margin-bottom: 8px;
-		margin-top: 3px;*/
 	} button {
 			margin-top: 12px;
 			margin-bottom: 25px;
@@ -599,6 +573,13 @@ button {
 	} .column-one img, .column-two img, .column-three img {
 		width: 100%;
 		padding: 0;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.column-one h2, .column-two h2, .column-three h2 {
+		text-transform: uppercase;
+		letter-spacing: 1px;
 	}
 }
 
@@ -683,14 +664,6 @@ button {
 	background-color: red; 
 }
 					/* RESPONSIVE */
-/*@media screen and (max-width: )
-
-.column {
-	width: 33.33%;
-	float: left;
-	display: block;
-}*/
-
 
 @media screen and (max-width: 740px) {
 	.container > a {
