@@ -189,12 +189,12 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /*overflow: hidden;*/
-    background: url(../images/hero.jpg);
+    background: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -208,28 +208,31 @@ body {
     margin: 0.625rem;
     z-index: 0;
 }
+
 .hero-title {
     font-family: 'Roboto', Open Sans, sans-serif;
     color: #ffa31a;
     text-shadow: 2px 2px;
     font-size: 100px;
     font-weight: 800;
-    margin: 0;
+    margin-top: -130px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    transform: translateY(-1000px);
-    animation: 1.2s slideDown ease-in-out forwards 1s;
+   /* transform: translateY(-1000px);
+    animation: 1.2s slideDown ease-in-out forwards 1s;*/
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     line-height: 1em;
 }
 
 .hero-subtitle {
+	position: relative;
+	top: 200px;
+
 	font-family: 'Segoe UI', Roboto, Open Sans, sans-serif;
 	font-size: 35px;
 	font-weight: 200;
 	letter-spacing: 2px;
-	margin-top: 210px;
 /*	-webkit-animation: mainFadeIn 2s forwards;
 	-o-animation: mainFadeIn 2s forwards;
 	animation: mainFadeIn 2s forwards;
@@ -246,32 +249,14 @@ body {
   }
 }*/
 
-
-/*h1.hero-title::before {
-    content: '';
-    width: 0%;
-    height: 144px;
-    background-color: #515EA9;
-    position: absolute;
-    bottom: -132px;
-    animation: 1s underline ease-in-out forwards 2s;
-    mix-blend-mode: screen;
-}*/
-
-/*@keyframes underline {
-  100% {
-    width: 100%;
-  }
-}*/
-
-@keyframes slideDown {
+/*@keyframes slideDown {
   100% {
     transform: translateY(0px);
     opacity: 1;
   }
-}
+}*/
 
-@media screen and (max-width: 740px) {
+/*@media screen and (max-width: 740px) {
 	.hero {
 		width: 100%;
 		height: 480px;
@@ -283,7 +268,7 @@ body {
 		width: 100%;
 		height: 100vh;
 	}
-}
+}*/
 
 					/*LOWER TEXT ONTO PAGE */
 
@@ -324,6 +309,7 @@ body {
     	padding: 8px 0px;
 	} .hero-subtitle {
 		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 420px) {
@@ -401,6 +387,7 @@ body {
 	top: -70px;
 	left: 0;
 }
+
 .column-one img {
 	width: 100%;
 	height: auto;
