@@ -213,7 +213,7 @@ body {
     font-family: 'Roboto', Open Sans, sans-serif;
     color: #ffa31a;
     text-shadow: 2px 2px;
-    font-size: 7em;
+    font-size: 100px;
     font-weight: 800;
     margin-top: -130px;
     letter-spacing: 2px;
@@ -229,7 +229,7 @@ body {
 	position: relative;
 	top: 200px;
 	font-family: 'Segoe UI', Roboto, Open Sans, sans-serif;
-	font-size: 2.5em;
+	font-size: 35px;
 	font-weight: 200;
 	letter-spacing: 2px;
 /*	-webkit-animation: mainFadeIn 2s forwards;
@@ -300,7 +300,19 @@ body {
 	color: black;
 }
 
-/*@media screen and (max-width: 745px) {
+@media screen and (max-width: 1800px) {
+	.hero-title {
+		font-size: 100px;
+    	border-top: 2px solid white;
+    	border-bottom: 2px solid white;
+    	padding: 8px 0px;
+    	text-shadow: none;
+	} .hero-subtitle {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 745px) {
 	.hero-title {
 		font-size: 70px;
     	border-top: 2px solid white;
@@ -321,7 +333,7 @@ body {
 		font-size: 20px;
 		font-weight: 400;
 	}
-}*/
+}
 
 /*736
 734
