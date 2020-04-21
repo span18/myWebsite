@@ -378,7 +378,7 @@ body {
 .column-two h2,
 .column-three h2 {
 	font-size: 28px;
-	font-weight: 800;
+	font-weight: bold;
 	letter-spacing: 0.5px;
 	margin-bottom: 8px;
 	margin-top: 3px;
@@ -434,7 +434,6 @@ body {
 }
 
 .background-res {
-	min-height: 203px;
 	background-color: #343f7f;
 	color: #fff;
 }
@@ -692,12 +691,16 @@ button {
 	display: block;
 }*/
 
-	.container > a {
-		font-size: 13px;
-	}
-}
+
 @media screen and (max-width: 740px) {
 	.container > a {
-		font-size: 10px;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container > a {
+		font-size: 14px;
+		letter-spacing: 1px;
 	}
 }
