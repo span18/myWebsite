@@ -336,10 +336,13 @@ body {
 	} .hero-title {
 		font-size: 35px;
 		margin-top: -74px;
+		padding: 4px 0px;
     	text-shadow: none;
 	} .hero-subtitle {
 		font-size: 20px;
 		font-weight: 400;
+		position: relative;
+		top: 203px;
 	}
 }
 
