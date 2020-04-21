@@ -314,7 +314,8 @@ body {
 
 @media screen and (max-width: 420px) {
 	.hero-title {
-		font-size: 40px;
+		font-size: 35px;
+		margin-top: -74px;
     	text-shadow: none;
 	} .hero-subtitle {
 		font-size: 20px;
