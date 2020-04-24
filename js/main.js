@@ -18,10 +18,12 @@ function showSlides() {
   setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
 
-let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-navbar-toggle');
+    // NAV BAR TOGGLE
+    
+// let mainNav = document.getElementById('js-menu');
+// let navBarToggle = document.getElementById('js-navbar-toggle');
 
-navBarToggle.addEventListener('click', function () {
+// navBarToggle.addEventListener('click', function () {
 
-mainNav.classList.toggle('active');
-});
+// mainNav.classList.toggle('active');
+// });

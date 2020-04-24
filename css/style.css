@@ -597,7 +597,6 @@ button {
 	float: left;
 	padding: 10px;
 	text-align: left;
-	overflow: hidden;
 }
 
 .plan-column:hover > .number-style,
@@ -629,7 +628,6 @@ button {
 	right: -180px;
 	z-index: 1;
 	color: red;
-	overflow: hidden;
 }
 
 .plan-column,
@@ -637,18 +635,6 @@ button {
 .maintain-column {
 	margin-top: 55px;
 }
-
-
-.plan-column {
-	transform: translateY(100px);
-    animation: 1.2s slideDown ease-in-out forwards 1s; 
-}
-
-@keyframes slideDown {
-  100% {
-    transform: translateY(0px);
-  }
-
 
 @media screen and (max-width: 1300px) {
 	.number-style {
@@ -686,7 +672,29 @@ button {
 	}
 }
 
+/*.plan-column,
+.develope-column,
+.maintain-column {
+	transform: translateY(100px);
+    animation: 1.2s slideDown ease-in-out forwards 1s; 
+}
 
+@keyframes slideDown {
+  100% {
+    transform: translateY(0px);
+  }*/
+
+.design-column,
+.test-column {
+	transform: translateY(100px);
+    animation: 1.2s slideUp ease-in-out forwards 1s; 
+}
+
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(0px);
+  }
 					
 								/* PORTFOLIO PAGE 
 
