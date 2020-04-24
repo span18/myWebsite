@@ -584,7 +584,49 @@ button {
 	}
 }
 
-	
+								/* FIVE STEP PLAN */
+
+
+
+.plan-column,
+.design-column,
+.develope-column,
+.test-column,
+.maintain-column {
+	width: 20%;
+	float: left;
+	padding: 10px;
+}
+
+.plan-column h2,
+.design-column h2,
+.develope-column h2,
+.test-column h2,
+.maintain-column h2 {
+	position: relative;
+	z-index: 2;
+	padding-top: 7px; 
+	background-color: #fff;
+}
+
+.number-style {
+	font-family: 'Roboto', Open Sans, sans-serif;
+	font-size: 125px;
+	font-weight: bold;
+	position: relative;
+	top: 59px;
+	left: -50px;
+	z-index: 1;
+	color: red;
+}
+
+.plan-column,
+.develope-column,
+.maintain-column {
+	margin-top: 55px;
+}
+
+
 
 
 					
