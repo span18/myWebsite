@@ -596,7 +596,16 @@ button {
 	width: 20%;
 	float: left;
 	padding: 10px;
+	text-align: left;
 }
+
+/*.plan-column:hover,
+.design-column:hover,
+.develope-column:hover,
+.test-column:hover,
+.maintain-column:hover {
+	border: 2px solid red;
+}*/
 
 .plan-column h2,
 .design-column h2,
@@ -615,7 +624,7 @@ button {
 	font-weight: bold;
 	position: relative;
 	top: 59px;
-	left: -50px;
+	right: -91px;
 	z-index: 1;
 	color: red;
 }
@@ -626,6 +635,22 @@ button {
 	margin-top: 55px;
 }
 
+
+@media screen and (max-width: 770px) {
+	.plan-column,
+	.design-column,
+	.develope-column,
+	.test-column,
+	.maintain-column {
+		width: 100%;
+		margin: 0;
+		float: none;
+		text-align: center;
+	} .number-style {
+		right: -180px;
+
+	}
+}
 
 
 
