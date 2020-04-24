@@ -597,15 +597,16 @@ button {
 	float: left;
 	padding: 10px;
 	text-align: left;
+	overflow: hidden;
 }
 
-/*.plan-column:hover,
-.design-column:hover,
-.develope-column:hover,
-.test-column:hover,
-.maintain-column:hover {
-	border: 2px solid red;
-}*/
+.plan-column:hover > .number-style,
+.design-column:hover > .number-style,
+.develope-column:hover > .number-style,
+.test-column:hover > .number-style,
+.maintain-column:hover > .number-style{
+	color: #404e9c;
+}
 
 .plan-column h2,
 .design-column h2,
@@ -627,6 +628,7 @@ button {
 	right: -180px;
 	z-index: 1;
 	color: red;
+	overflow: hidden;
 }
 
 .plan-column,
@@ -635,7 +637,12 @@ button {
 	margin-top: 55px;
 }
 
+@media screen and (max-width: 1300px) {
+	.number-style {
+		right: -99px;
 
+	}
+}
 @media screen and (max-width: 770px) {
 	.plan-column,
 	.design-column,
