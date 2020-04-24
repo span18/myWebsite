@@ -624,7 +624,7 @@ button {
 	font-weight: bold;
 	position: relative;
 	top: 59px;
-	right: -91px;
+	right: -180px;
 	z-index: 1;
 	color: red;
 }
@@ -648,6 +648,13 @@ button {
 		text-align: center;
 	} .number-style {
 		right: -180px;
+
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.number-style {
+		right: -130px;
 
 	}
 }
