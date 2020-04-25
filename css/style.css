@@ -601,12 +601,16 @@ button {
 	text-align: left;
 }
 
-.plan-column {
-	/*opacity: 0;*/
-	margin-top: 70px;
+.fade-up {
+	opacity: 0;
+	margin-top: -50px;
 	/*transform: translateY(100px);
     animation: 1.2s slideDown ease-in-out forwards 1s;*/
+}
 
+.fade-down {
+	opacity: 0;
+	margin-top: -55px;
 }
 
 .plan-column:hover > .number-style,
@@ -640,11 +644,7 @@ button {
 	color: red;
 }
 
-.plan-column,
-.develope-column,
-.maintain-column {
-	margin-top: 55px;
-}
+
 							/* SCREEN RESPONSIVE */
 @media screen and (max-width: 1300px) {
 	.number-style {
