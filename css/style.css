@@ -602,8 +602,8 @@ button {
 }
 
 .plan-column {
-	opacity: 0;
-	margin-top: -30px;
+	/*opacity: 0;*/
+	margin-top: 70px;
 	/*transform: translateY(100px);
     animation: 1.2s slideDown ease-in-out forwards 1s;*/
 
