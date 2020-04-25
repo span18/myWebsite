@@ -664,14 +664,18 @@ button {
 		text-align: center;
 	} .number-style {
 		right: -180px;
-
 	}
 }
 
 @media screen and (max-width: 450px) {
 	.number-style {
 		right: -130px;
-
+	} .plan-column,
+	.design-column,
+	.develope-column,
+	.test-column,
+	.maintain-column {
+		margin-top: 0 !important;
 	}
 }
 
