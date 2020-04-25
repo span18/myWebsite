@@ -449,7 +449,9 @@ body {
 .background-res:hover,
 .background-old:hover {
 	background-color: #fff;
-	color: black;
+	color: black; 
+  box-shadow: 0 15px 25px -25px #1F1F46;
+  transform: translateY(20px);
 }
 
 
@@ -599,6 +601,14 @@ button {
 	text-align: left;
 }
 
+.plan-column {
+	opacity: 0;
+	margin-top: -30px;
+	/*transform: translateY(100px);
+    animation: 1.2s slideDown ease-in-out forwards 1s;*/
+
+}
+
 .plan-column:hover > .number-style,
 .design-column:hover > .number-style,
 .develope-column:hover > .number-style,
@@ -635,7 +645,7 @@ button {
 .maintain-column {
 	margin-top: 55px;
 }
-
+							/* SCREEN RESPONSIVE */
 @media screen and (max-width: 1300px) {
 	.number-style {
 		right: -99px;
@@ -671,8 +681,8 @@ button {
 
 	}
 }
-
-/*.plan-column,
+						/* SCREEN RESPONSIVE END */
+/*
 .develope-column,
 .maintain-column {
 	transform: translateY(100px);
@@ -682,7 +692,42 @@ button {
 @keyframes slideDown {
   100% {
     transform: translateY(0px);
-  }*/
+  }
+
+.plan-column {
+	transform: translateY(100px);
+    animation: slideUp 1.2s ease forwards 1s; 
+}
+
+.design-column {
+	transform: translateY(100px);
+    animation: slideUp 1.2s ease forwards 1s; 
+	animation-delay: 1.5s;
+}
+
+.develope-column {
+	transform: translateY(100px);
+    animation: slideUp 1.2s ease forwards 1s; 
+	animation-delay: 2s;
+}
+
+.test-column {
+	transform: translateY(100px);
+    animation: slideUp 1.2s ease forwards 1s; 
+	animation-delay: 2.5s;
+}
+
+.maintain-column {
+	transform: translateY(100px);
+    animation: slideUp 1.2s ease forwards 1s; 
+	animation-delay: 3s;
+}
+
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(0px);
+  }
 
 .design-column,
 .test-column {
@@ -694,18 +739,18 @@ button {
 @keyframes slideUp {
   100% {
     transform: translateY(0px);
-  }
+  }*/
 					
-								/* PORTFOLIO PAGE 
+								/* PORTFOLIO PAGE */
 
 .title {
   font-family: 'Roboto', Open Sans, sans-serif;
   text-transform: uppercase;
   color: blue;
   font-size: 15px;
-  /*position: relative;
+  position: relative;
   top: 10;
-  left: 25;*/
+  left: 25;
   margin: 0;
 }
 
