@@ -548,37 +548,39 @@ button {
 @media screen and (max-width: 810px) {
 	.column-one p, .column-three p {
 		min-height: 362px;
-	} 
+	} } .column-one, .column-two, .column-three {
+		width: 100%;
+		float: none;
 }
 
 @media screen and (max-width: 786px) {
-	.column-one p, .column-three p {
-		min-height: 387px;
+	/*.column-one p, .column-three p {
+		min-height: 387px;*/
 	} .column-one h2, .column-two h2, .column-three h2 {
 		font-size: 21px;
 		font-weight: 800;
 		letter-spacing: 0.5px;
 		margin-bottom: 8px;
 		margin-top: 3px;
-	}
+	} .column-one img, .column-two img, .column-three img {
+		width: 100%;
+		padding: 0;
 }
 
 @media screen and (max-width: 750px) {
-	.column-one p, .column-three p {
+	/*.column-one p, .column-three p {
 		width: 100%;
 		min-height: auto;
 		padding: 10px;
 	} .column-one, .column-two, .column-three {
 		width: 100%;
-		float: none;
+		float: none;*/   /* here*/
 	} button {
 			margin-top: 12px;
 			margin-bottom: 25px;
 	} .hide {
 			display: none;
-	} .column-one img, .column-two img, .column-three img {
-		width: 100%;
-		padding: 0;
+	} 
 	}
 }
 
@@ -661,7 +663,7 @@ button {
 
 	}
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 815px) {
 	.plan-column,
 	.design-column,
 	.develope-column,
@@ -809,14 +811,17 @@ button {
   to {opacity: 1}
 }
 
+
+/*@media screen and (max-width: 850px) {
+
+}*/
+
 @media screen and (max-width: 770px) {
-	.slideshow-container {
+	/*.slideshow-container {
 		width: 100%;
 		height: auto;
 		text-align: center;
-		margin: 0;
-	} .blah {
-		font-size: 100px;
+		margin: 0;*/
 	} img {
 		width: 100%;
 		height: auto;
