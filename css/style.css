@@ -688,13 +688,14 @@ button {
 	} .process-container h2 {
 		font-size: 21px;
 		text-transform: uppercase;
+	} .number-style {
+		top: 55px;
 	}
 }
 
 @media screen and (max-width: 340px) {
 	.number-style {
 		right: -110px;
-
 	}
 }
 						/* SCREEN RESPONSIVE END */
