@@ -829,20 +829,32 @@ button {
 }
 
 								/*FOOTER / CONTACT PAGE */
+
+.contact-container {
+	background: linear-gradient(to bottom,#132d50 0,#1b2836 100%);
+}
+
 .contact-column,
 .logo-column {
 	width: 50%;
-	height: 500px;
+	height: auto;
 	float: left;
-	background-color: #515EA9;
 }
 
-.contacto-form {
+.contact-form {
 	border: 2px solid white;
 }
 
-.logo-column {
-	background-color: #252d5b;
+
+.logo-column p {
+	color: #fff;
+	text-align: left;
+	margin: 0px 100px;
+}
+
+.thank-you-title {
+	font-size: 40px;
+	font-weight: bold;
 }
 
 form {
@@ -867,6 +879,8 @@ textarea {
 	.logo-column {
 		width: 100%;
 		float: none;
+	} .logo-column {
+		margin: 10px 10px 35px 10px;
 	}
 }
 
