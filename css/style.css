@@ -610,14 +610,14 @@ button {
 }
 
 .fade-up {
-	opacity: 0;
+	/*opacity: 0;*/
 	margin-top: -50px;
 	/*transform: translateY(100px);
     animation: 1.2s slideDown ease-in-out forwards 1s;*/
 }
 
 .fade-down {
-	opacity: 0;
+	/*opacity: 0;*/
 	margin-top: -55px;
 }
 
