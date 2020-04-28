@@ -636,7 +636,7 @@ button {
 .maintain-column h2 {
 	position: relative;
 	font-size: 28px;
-	z-index: 2;
+	z-index: 9999;
 	padding-top: 7px; 
 	background-color: #fff;
 	/*text-transform: uppercase;*/
