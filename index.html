@@ -178,11 +178,16 @@
 						
 						<div class="contact-column">
 							<form id="contact-form" method="post" action="contact-form-handler.php">
-								<input type="text" class="btn btn-primary" name="username" placeholder="Fullname"></input>
-								<input type="email" name="email" placeholder="Email">
-								<input type="text" name="mobile" placeholder="Contact Number">
-								<textarea name="comments" value="comments" rows="5"placeholder="Comments..">
+								
+								<input type="text" class="btn btn-primary" name="username" placeholder="Fullname" required></input>
+								
+								<input type="email" name="email" placeholder="Email" required>
+								
+								<input type="tel" name="mobile" placeholder="Contact Number" required>
+								
+								<textarea name="comments" value="comments" rows="5" placeholder="Comments.." required>
 								</textarea>
+								
 								<input type="submit" name="submit" value="SEND MESSAGE">							
 							</form>
 						</div>
