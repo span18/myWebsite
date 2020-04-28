@@ -441,7 +441,7 @@ body {
 
 .background-des {
 	min-height: 203px;
-	background-color: #404e9c;
+	background: linear-gradient(to bottom,#404e9c 0,#252d5b 100%);
 	color: #fff;
 }
 
@@ -828,7 +828,7 @@ button {
 
 }
 
-								/*FOOTER / CONTACT PAGE */
+								/* CONTACT PAGE */
 
 .contact-container {
 	background: linear-gradient(to bottom,#132d50 0,#1b2836 100%);
@@ -850,6 +850,8 @@ button {
 	color: #fff;
 	text-align: left;
 	margin: 0px 100px;
+	letter-spacing: 3px;
+	line-height: 1.6em;
 }
 
 .thank-you-title {
@@ -879,11 +881,19 @@ textarea {
 	.logo-column {
 		width: 100%;
 		float: none;
-	} .logo-column {
-		margin: 10px 10px 35px 10px;
+	} .logo-column p {
+		margin: 10px 15px 35px 15px;
+		font-size: 17.5px;
+	} .thank-you-title {
+		font-size: 28px;
 	}
 }
 
+						/* FOOTER */
+
+footer {
+	width: 100%;
+	height: 250px;
 
 
 
