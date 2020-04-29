@@ -607,31 +607,15 @@ button {
 		margin: 0;
 		float: none;
 		text-align: center;
-	} .number-style {
-		/*right: -180px;*/
 	}
 }
 
 @media screen and (max-width: 450px) {
-	.number-style {
-		/*right: -130px;*/
-	} .plan-column,
-	.design-column,
-	.develope-column,
-	.test-column,
-	.maintain-column {
-		/*margin-top: 0 !important;*/
-	} .process-container h2 {
+	.process-container h2 {
 		font-size: 21px;
 		text-transform: uppercase;
 	} .number-style {
-		top: 55px;
-	}
-}
-
-@media screen and (max-width: 340px) {
-	.number-style {
-		right: -110px;
+		top: 55px; 
 	}
 }
 						/* SCREEN RESPONSIVE END */
@@ -794,6 +778,16 @@ button {
 	font-weight: bold;
 }
 
+#submitted-message {
+	width: 50%;
+	height: 10px;
+	margin: 100px;
+	font-size: 30px;
+	color: red;
+	display: none;
+}
+
+
 form {
 	width: 100%;
 	height: 100%;
@@ -813,13 +807,20 @@ textarea {
 	border: 5px solid transparent;
 }
 
-textarea {
-	text-align: left;
+input[type=submit] {
+	background-color: blue;
+	color: #fff;
+}
+
+input[type=submit]:focus {
+	border: 5px solid #fff;
 }
 
 textarea:focus, input:focus {
 	border: 5px solid blue;
 }
+
+
 
 @media screen and (max-width: 440px) {
 	.contact-column,
