@@ -400,7 +400,7 @@ body {
 .column-one p,
 .column-two p,
 .column-three p {
-	padding: 10px 10px;
+	padding: 20px 10px 10px 10px;
 	margin: 0px;
 }
 
@@ -440,18 +440,19 @@ body {
 }
 
 .background-des {
-	min-height: 203px;
+	height: 270px;
 	background-color: #404e9c;
 	color: #fff;
 }
 
 .background-res {
+	height: 270px;
 	background-color: #343f7f;
 	color: #fff;
 }
 
 .background-old {
-	min-height: 203px;
+	height: 270px;
 	background-color: #252d5b;
 	color: #fff;
 }
@@ -494,24 +495,11 @@ button {
     }
 
 
-@media screen and (max-width: 1330px) {
-	.column-one p, .column-three p {
-		min-height: 230px;
+@media screen and (max-width: 1100px) {
+	.background-des, .background-res, .background-old {
+		height: 375px;
 	} 
 }
-
-@media screen and (max-width: 1180px) {
-	.column-one p, .column-three p {
-		min-height: 256px;
-	} 
-}
-
-@media screen and (max-width: 1090px) {
-	.column-one p, .column-three p {
-		min-height: 281px;
-	} 
-}
-
 
 @media screen and (max-width: 998px) {
 	.column-one h2, .column-two h2, .column-three h2 {
@@ -523,38 +511,8 @@ button {
 		}
 	}
 
-@media screen and (max-width: 983px) {
-	.column-one p, .column-three p {
-		min-height: 309px;
-		padding: 10px;
-	} button {
-		margin-top: 44px;
-	} .hide {
-		position: relative;
-		top: -81px;
-	}
-}
-
-
-@media screen and (max-width: 888px) {
-	.column-one p, .column-three p {
-		min-height: 350px;
-	} .hide {
-		position: relative;
-		top: -90px;
-	}
-}
-
-@media screen and (max-width: 810px) {
-	.column-one p, .column-three p {
-		min-height: 362px;
-	} 
-}
-
 @media screen and (max-width: 786px) {
-	.column-one p, .column-three p {
-		min-height: 387px;
-	} .column-one h2, .column-two h2, .column-three h2 {
+	.column-one h2, .column-two h2, .column-three h2 {
 		font-size: 21px;
 		font-weight: 800;
 		letter-spacing: 0.5px;
@@ -564,21 +522,18 @@ button {
 }
 
 @media screen and (max-width: 750px) {
-	.column-one p, .column-three p {
-		width: 100%;
-		min-height: auto;
-		padding: 10px;
-	} .column-one, .column-two, .column-three {
+	.column-one, .column-two, .column-three {
 		width: 100%;
 		float: none;
-	} button {
-			margin-top: 12px;
-			margin-bottom: 25px;
-	} .hide {
-			display: none;
 	} .column-one img, .column-two img, .column-three img {
 		width: 100%;
 		padding: 0;
+	} .background-des, .background-res, .background-old {
+		height: auto;
+	} button {
+		margin-bottom: 25px;
+	} .column-one p, .column-two p, .column-three p {
+		padding-top: 10px;
 	}
 }
 
@@ -586,8 +541,6 @@ button {
 	.column-one h2, .column-two h2, .column-three h2 {
 		letter-spacing: 1px;
 		text-transform: uppercase;
-	} button {
-		margin-top: 25px;
 	}
 }
 
