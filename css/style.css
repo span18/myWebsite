@@ -783,8 +783,10 @@ button {
 	height: 100px;
 	text-align: left;
 	margin: 100px;
-	font-size: 30px;
+	font-size: 25px;
 	color: red;
+	text-transform: uppercase;
+	line-height: 1.4em;
 	/*display: none;*/
 }
 
@@ -822,7 +824,12 @@ textarea:focus, input:focus {
 }
 
 
-
+@media screen and (max-width: 750px) {
+	#submitted-message {
+		font-size: 20px;
+		color: orange;
+	}
+}
 @media screen and (max-width: 440px) {
 	.contact-column,
 	.logo-column {
@@ -834,6 +841,8 @@ textarea:focus, input:focus {
 		text-align: center;
 	} .thank-you-title {
 		font-size: 28px;
+	} #submitted-message {
+		font-size: 20px;
 	}
 }
 
