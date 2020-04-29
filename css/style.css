@@ -385,6 +385,7 @@ body {
 	width: 33.33%;
 	float: left;
 	display: block;
+	margin-bottom: 100px;
 }
 
 .column-one h2,
@@ -408,16 +409,6 @@ body {
   content: "";
   display: table;
   clear: both;
-}
-
-.hide {
-	width: 100%;
-	height: 25px;
-	background-color: #fff;
-	opacity: 1;
-	position: relative;
-	top: -70px;
-	left: 0;
 }
 
 .column-one img {
@@ -541,6 +532,8 @@ button {
 	.column-one h2, .column-two h2, .column-three h2 {
 		letter-spacing: 1px;
 		text-transform: uppercase;
+	} .column-one, .column-two, .column-three {
+		margin-bottom: 25px;
 	}
 }
 
@@ -565,12 +558,12 @@ button {
 
 .fade-up {
 	opacity: 0;
-	margin-top: -50px;
+	margin-top: 0px;
 }
 
 .fade-down {
 	opacity: 0;
-	margin-top: -55px;
+	margin-top: -80px;
 }
 
 .plan-column:hover > .number-style,
@@ -597,11 +590,7 @@ button {
 	font-family: 'Roboto', Open Sans, sans-serif;
 	font-size: 61px;
 	font-weight: bold;
-	margin-left: auto;
-	margin-right: auto;
-	/*position: relative;
-	top: 0px;
-	right: -113px;*/
+	text-align: center;
 	color: red;
 }
 
