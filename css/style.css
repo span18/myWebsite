@@ -784,10 +784,10 @@ button {
 	text-align: left;
 	margin: 100px;
 	font-size: 25px;
-	color: red;
+	color: orange;
 	text-transform: uppercase;
 	line-height: 1.4em;
-	/*display: none;*/
+	display: none;
 }
 
 
@@ -842,7 +842,10 @@ textarea:focus, input:focus {
 	} .thank-you-title {
 		font-size: 28px;
 	} #submitted-message {
-		font-size: 20px;
+		font-size: 18px;
+		margin: 0px 0px -55px;
+		text-align: center;
+		font-weight: bold;
 	}
 }
 
