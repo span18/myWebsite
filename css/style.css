@@ -813,6 +813,10 @@ textarea {
 	border: 5px solid transparent;
 }
 
+textarea {
+	text-align: left;
+}
+
 textarea:focus, input:focus {
 	border: 5px solid blue;
 }
