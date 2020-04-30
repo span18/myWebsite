@@ -543,6 +543,7 @@ button {
 	width: 100%;
 	height: auto;
 	margin-top: 50px;
+	border-bottom: 2px solid #404e9c;
 }
 
 .plan-column,
