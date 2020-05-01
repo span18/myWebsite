@@ -465,7 +465,6 @@ button {
 	width: 100%;
 	height: auto;
 	margin-top: 105px;
-	border-bottom: 2px solid #404e9c;
 }
 
 .plan-column,
@@ -773,8 +772,8 @@ textarea:focus, input:focus {
 #contact::before { 
   display: block; 
   content: " "; 
-  margin-top: -120px; 
-  height: 120px; 
+  margin-top: -90px; 
+  height: 90px; 
   visibility: hidden; 
   pointer-events: none;
 }
