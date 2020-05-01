@@ -547,6 +547,8 @@ button {
 		text-transform: uppercase;
 	} .column-one, .column-two, .column-three {
 		margin-bottom: 25px;
+	} .simple-header {
+		font-size: 21px;
 	}
 }
 
@@ -580,11 +582,11 @@ button {
 	margin-top: -80px;
 }
 
-.plan-column:hover > .number-style,
-.design-column:hover > .number-style,
-.develope-column:hover > .number-style,
-.test-column:hover > .number-style,
-.maintain-column:hover > .number-style{
+.plan-column:hover > .number-style-one,
+.design-column:hover > .number-style-two,
+.develope-column:hover > .number-style-three,
+.test-column:hover > .number-style-four,
+.maintain-column:hover > .number-style-five {
 	color: #404e9c;
 }
 
@@ -600,13 +602,48 @@ button {
 	/*text-transform: uppercase;*/
 }
 
-.number-style {
+.number-style-one,
+.number-style-two,
+.number-style-three,
+.number-style-four,
+.number-style-five  {
 	font-family: 'Roboto', Open Sans, sans-serif;
+	position: relative;
 	font-size: 61px;
 	font-weight: bold;
 	text-align: center;
 	color: red;
 }
+
+.number-style-one {
+	animation: jumpone 2s ease 15s 1;
+}
+
+.number-style-two {
+	animation: jumpone 2s ease 16s 1;
+}
+
+.number-style-three {
+	animation: jumpone 2s ease 17s 1;
+}
+
+.number-style-four {
+	animation: jumpone 2s ease 18s 1;
+}
+ 
+.number-style-five {
+	animation: jumpone 2s ease 19s 1;
+}
+
+    @keyframes jumpone {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(1,1)      translateY(0); }
+    }
 
 
 							/* SCREEN RESPONSIVE */
@@ -769,6 +806,10 @@ button {
 
 .contact-container {
 	background: linear-gradient(to bottom,#132d50 0,#1b2836 100%);
+}
+
+.contact-title {
+	opacity: 0;
 }
 
 .contact-column,
