@@ -385,7 +385,7 @@ body {
 	width: 33.33%;
 	float: left;
 	display: block;
-	margin-bottom: 100px;
+	margin-bottom: 42px;
 }
 
 .column-one h2,
@@ -479,6 +479,19 @@ button {
         animation-iteration-count: 1;
 }
 
+.simple-header {
+	width: 98%;
+	font-size: 28px;
+	letter-spacing: 0.8px;
+	color: #404e9c;
+	text-transform: uppercase;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	border-top: 2px solid #404e9c;
+	padding-top: 15px; 
+}
+
 @keyframes bounce {
         0%   { transform: translateY(0); }
         50%  { transform: translateY(-25px); }
@@ -542,7 +555,7 @@ button {
 .process-container {
 	width: 100%;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 105px;
 	border-bottom: 2px solid #404e9c;
 }
 
@@ -608,6 +621,8 @@ button {
 		margin: 0;
 		float: none;
 		text-align: center;
+	} .process-container {
+		margin-top: 32px;
 	}
 }
 
@@ -616,7 +631,7 @@ button {
 		font-size: 21px;
 		text-transform: uppercase;
 	} .number-style {
-		top: 55px; 
+		top: 55px;
 	}
 }
 						/* SCREEN RESPONSIVE END */
@@ -690,6 +705,7 @@ button {
   top: 10;
   left: 25;
   margin: 0;
+  opacity: 0;
 }
 
 .slideshow-container {
