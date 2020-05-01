@@ -58,8 +58,7 @@ li:hover {
 
 
 					/* TAB BAR TRIANGLE */
-.container > input:checked + a:after,
-.container > input:checked:hover + a:after{
+/*li a {
 	top: 100%;
 	border: solid transparent;
 	content: '';
@@ -76,7 +75,7 @@ li:hover {
 	-o-transform: translateY(0%) rotate(140deg);
 	-ms-transform: translateY(0%) rotate(140deg);
 	transform: translateY(0%) rotate(180deg);
-}
+}*/
 
 .block {
 	width: 100%;
@@ -87,65 +86,6 @@ li:hover {
 	background-color: #fff;
 	z-index: 1;
 }
-
-					/* IND SCREEN SIZE */
-/*.st-scroll,
-.st-panel {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}*/
-					/* SCREEN SCROLL */
-/*.st-scroll {
-	top: 0;
-	left: 0;
-	-webkit-transition: all 0.6s ease-in-out;
-	-moz-transition: all 0.6s ease-in-out;
-	-o-transition: all 0.6s ease-in-out;
-	-ms-transition: all 0.6s ease-in-out;
-	transition: all 0.6s ease-in-out;
-}
-					
-.st-panel{
-	background: #fff;
-	overflow: hidden;
-} 
-
-#st-control-1:checked ~ .st-scroll {
-	-webkit-transform: translateY(0%);
-	-moz-transform: translateY(0%);
-	-o-transform: translateY(0%);
-	-ms-transform: translateY(0%);
-	transform: translateY(0%);
-}
-#st-control-2:checked ~ .st-scroll {
-	-webkit-transform: translateY(-18%);
-	-moz-transform: translateY(-18%);
-	-o-transform: translateY(-18%);
-	-ms-transform: translateY(-18%);
-	transform: translateY(-18%);
-}
-#st-control-3:checked ~ .st-scroll {
-	-webkit-transform: translateY(-200%);
-	-moz-transform: translateY(-200%);
-	-o-transform: translateY(-200%);
-	-ms-transform: translateY(-200%);
-	transform: translateY(-200%);
-}
-#st-control-4:checked ~ .st-scroll {
-	-webkit-transform: translateY(-57.5%);
-	-moz-transform: translateY(-57.5%);
-	-o-transform: translateY(-57.5%);
-	-ms-transform: translateY(-57.5%);
-	transform: translateY(-57.5%);
-}
-#st-control-5:checked ~ .st-scroll {
-	-webkit-transform: translateY(-75.5%);
-	-moz-transform: translateY(-75.5%);
-	-o-transform: translateY(-75.5%);
-	-ms-transform: translateY(-75.5%);
-	transform: translateY(-75.5%);
-}*/
 
 							/* RESPONSIVE */
 
@@ -278,6 +218,18 @@ li:hover {
 	right: 2%;
 	color: black;
 }
+					/* ALIGN PAGE LINKS INTO PLACE */
+#about::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+					/* END */
+
+							/* RESPONSIVE */
 
 @media screen and (min-width: 1800px) {
 	.hero-title {
@@ -600,7 +552,14 @@ button {
         100% { transform: scale(1,1)      translateY(0); }
     }
 
-
+#services::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -118px; 
+  height: 118px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
 							/* SCREEN RESPONSIVE */
 
 @media screen and (max-width: 770px) {
@@ -679,6 +638,14 @@ button {
   to {opacity: 1}
 }
 
+#portfolio::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
 
 /*@media screen and (max-width: 850px) {
 
@@ -803,6 +770,14 @@ textarea:focus, input:focus {
 	}
 }
 
+#contact::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -120px; 
+  height: 120px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
 						/* FOOTER */
 
 footer {
