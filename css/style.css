@@ -76,7 +76,7 @@ nav li:hover:before {
 	transform: translateY(0%) rotate(180deg);
 }
 
-.active:after {
+li .active:before {
 	top: 100%;
 	border: solid transparent;
 	content: '';
