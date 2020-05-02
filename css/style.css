@@ -59,7 +59,7 @@ li:hover {
 
 
 					/* TAB BAR TRIANGLE */
-nav li:hover:before {
+/*nav li:hover:before {
 	top: 100%;
 	border: solid transparent;
 	content: '';
@@ -74,7 +74,7 @@ nav li:hover:before {
 	-o-transform: translateY(0%) rotate(140deg);
 	-ms-transform: translateY(0%) rotate(140deg);
 	transform: translateY(0%) rotate(180deg);
-}
+}*/
 
 li .active:before {
 	top: 100%;
@@ -295,6 +295,12 @@ li .active:before {
 	position: relative;
 	top: 0;
 	left: 50px;
+}
+
+.ipad {
+	width: 800px;
+	height: 600px;
+	align-items: center;
 }
 /*
 .aboutme-container {
