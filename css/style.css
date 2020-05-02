@@ -282,63 +282,22 @@ li:hover {
 	color: #404e9c;
 }
 
-.triangle-container {
+#about-me p {
+	position: relative;
+	top: 0;
+	left: 50px;
+}
+
+.aboutme-container {
 	width: 100%;
-	height: auto;
-	display: flex;
+	height: 100vh;
+	background: url("../images/about-me.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-/*.triangle-one {
-	width: 0;
-	height: 0;
-	position: relative;
-	margin: 25px;
-	border-left: 200px solid transparent;
-	border-right: 200px solid transparent;
-	border-top: 400px solid red;
-	z-index: 0;
-}*/
 
-.triangle-one {
-	width: 0;
-	height: 0;
-	position: relative;
-	top: 0;
-	left: 100px;
-	margin: 25px;
-	border-left: 125px solid transparent;
-	/*border-right: 125px solid transparent;*/
-	border-top: 250px solid red;
-	z-index: 1;
-	float: left;
-}
-
-.triangle-two {
-	width: 0;
-	height: 0;
-	position: relative;
-	top: 0;
-	left: 30px;
-	margin: 25px;
-	border-left: 125px solid transparent;
-	/*border-right: 125px solid transparent;*/
-	border-top: 250px solid blue;
-	z-index: 1;
-	float: left;
-}
-
-/*.triangle-three {
-	width: 0;
-	height: 0;
-	position: relative;
-	top: 0;
-	left: 100px;
-	margin: 25px;
-	border-left: 150px solid transparent;
-	border-right: 150px solid transparent;
-	border-top: 300px solid #343f7f;
-	z-index: 1;
-}*/
 						/* SERVICES PAGE */
 .row {
 	width: 100%;
