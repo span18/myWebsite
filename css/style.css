@@ -346,11 +346,18 @@ li .active:before {
 
 @media screen and (max-width: 770px) {
 	.quotation {
-		width: 37px;
-		height: 26px;
+		display: none;
 	}.quotation-one {
-		width: 37px;
-		height: 26px;
+		display: none;
+	} #about-me p {
+		width: 96%;
+		height: auto;
+		position: static;
+		margin-left: 10px;
+		margin-right: 10px;
+	}.aboutme-container {
+		height: 400px;
+		margin-top: 0;
 	}
 }
 						/* SERVICES PAGE */
