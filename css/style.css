@@ -284,43 +284,53 @@ li .active:before {
 
 #about-me {
 	width: 100%;
-	height: 800px;
-	font-size: 17.5px;
-	letter-spacing: 1.3px;
+	height: 400px;
+}
+
+.aboutme-container {
+	width: 100%;
+	height: 146px;
+	margin-top: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
 	color: #404e9c;
+	background-color: #343f7f;
 }
 
 #about-me p {
 	width: 500px;
-	height: 0px;
-	position: relative;
-	top: 0;
-	left: 50px;
-	z-index: 2;
-}
-
-.title-block {
-	position: relative;
-	top: 0;
-	left: 200px;
-	width: 200px;
 	height: 200px;
-	background-color: blue;
-	z-index: 1;
-}
-
-.title-block-one {
 	position: relative;
-	top: -260px;
-	left: 128px;
-	width: 350px;
-	height: 350px;
-	background: #404e9c;
+	top: -97px;
+	left: 197px;
+	padding: 20px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	/*opacity: 3;*/
-	z-index: 0;
-
 }
+
+.quotation {
+	position: relative;
+	top: -47px;
+	left: 136px;
+}
+
+.quotation-one {
+	position: relative;
+	top: -142px;
+	left: 704px;
+	transform: rotate(180deg);
+}
+
+/*.blue-line {
+	width: 100%;
+	height: 25px;
+	position: relative;
+	top: -82px;
+	background-color: #343f7f;
+}*/
 
 
 					/* ALIGN PAGE LINKS INTO PLACE */
@@ -334,7 +344,21 @@ li .active:before {
 }
 					/* END */
 
+@media screen and (max-width: 770px) {
+	.quotation {
+		width: 37px;
+		height: 26px;
+	}.quotation-one {
+		width: 37px;
+		height: 26px;
+	}
+}
 						/* SERVICES PAGE */
+
+#services {
+	margin-top: 80px;
+}
+
 .row {
 	width: 100%;
 	height: auto;
@@ -656,9 +680,8 @@ button {
   color: #404e9c;
   font-size: 28px;
   letter-spacing: 0.8px;
-  padding-top: 15px;
   padding-left: 10px;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .slideshow-container {
