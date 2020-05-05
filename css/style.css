@@ -283,8 +283,8 @@ li .active:before {
 						/* ABOUT ME */
 
 .aboutme-row {
-	width: 90%;
-	height: 382px;
+	width: 100%;
+	height: auto;
 	margin-top: 30px;
 	font-size: 20px;
 	font-weight: bold;
@@ -292,25 +292,26 @@ li .active:before {
 	color: #404e9c;
 	margin-left: auto;
 	margin-right: auto;
+	display: inline-block;
+	display: flex;
 }
 
 .aboutme-img-column {
-	width: 35%;
-	height: auto;
-	float: left;
-	opacity: 0.7;
-	display: block;
-	margin-left: 45px;
-
-}
-
-.aboutme-text-column {
-	width: 45%;
+	width: 50%;
 	height: auto;
 	float: left;
 	opacity: 0.7;
 	display: block;
 	margin-left: 15px;
+
+}
+
+.aboutme-text-column {
+	width: 50%;
+	height: auto;
+	float: left;
+	opacity: 0.7;
+	display: block;
 }
 
 .aboutme-title {
@@ -324,16 +325,18 @@ li .active:before {
 }
 
 .img-adjust {
+	width: 80%;
+	height: auto;
 	border-radius: 10px;
 }
 
 #about-me p {
-	width: 500px;
+	width: 90%;
 	height: 328px;
-	position: relative;
+	/*position: relative;
 	top: -50px;
-	left: 0px;
-	padding: 0px 30px 0px 30px;
+	left: 0px;*/
+	/*padding: 0px 30px 0px 30px;*/
 	border: 1px solid transparent;
 	border-radius: 10px;
 	background-color: #fff;
