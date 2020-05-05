@@ -282,55 +282,82 @@ li .active:before {
 
 						/* ABOUT ME */
 
-#about-me {
-	width: 100%;
-	height: 400px;
-}
-
-.aboutme-container {
-	width: 100%;
-	height: 146px;
-	margin-top: 85px;
+.aboutme-row {
+	width: 90%;
+	height: 382px;
+	margin-top: 30px;
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 1.5px;
 	color: #404e9c;
-	background-color: #343f7f;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutme-img-column {
+	width: 35%;
+	height: auto;
+	float: left;
+	opacity: 0.7;
+	display: block;
+	margin-left: 45px;
+
+}
+
+.aboutme-text-column {
+	width: 45%;
+	height: auto;
+	float: left;
+	opacity: 0.7;
+	display: block;
+	margin-left: 15px;
+}
+
+.aboutme-title {
+	font-family: 'Roboto', Open Sans, sans-serif;
+	font-size: 125px;
+	color: #fff;
+	position: relative;
+	top: -290px;
+	left: 11px;
+	opacity: 0.3;
+}
+
+.img-adjust {
+	border-radius: 10px;
 }
 
 #about-me p {
 	width: 500px;
-	height: 200px;
+	height: 328px;
 	position: relative;
-	top: -99px;
-	left: 197px;
-	padding: 20px;
+	top: -50px;
+	left: 0px;
+	padding: 0px 30px 0px 30px;
 	border: 1px solid transparent;
 	border-radius: 10px;
 	background-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	align-items: center;
+	line-height: 1.4em;
 }
 
 .quotation {
 	position: relative;
-	top: -47px;
-	left: 133px;
+	top: 8px;
+	left: 7px;
+	z-index: 1;
 }
 
 .quotation-one {
 	position: relative;
-	top: -142px;
-	left: 704px;
+	top: -101px;
+	left: 455px;
 	transform: rotate(180deg);
+	z-index: 1;
 }
 
-/*.blue-line {
-	width: 100%;
-	height: 25px;
-	position: relative;
-	top: -82px;
-	background-color: #343f7f;
-}*/
 
 
 					/* ALIGN PAGE LINKS INTO PLACE */
@@ -344,31 +371,22 @@ li .active:before {
 }
 					/* END */
 
-@media screen and (max-width: 800px) {
-	.quotation {
-		display: none;
-	}.quotation-one {
-		display: none;
-	} #about-me p {
-		width: 350px;
-		height: auto;
-		position: relative;
-		top: 25px;
-		left: 0px;
-		font-size: 17.5px;
-		font-weight: 500;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 25PX;
-		padding: 10px;
-	}.aboutme-container {
-		height: 96px;
-		margin-top: -6px;
-		text-align: center;
-	}#about-me {
-		height: auto;
+@media screen and (max-width: 1000px) {
+	.aboutme-row {
+		width: 100%;
+		} .aboutme-text-column {
+			width: 48%;
+			margin-right: 5px;
+		}
+		 .aboutme-img-column {
+		 	width: 48%;
+			margin-left: 5px;
+		}
 	}
-}
+
+
+
+
 						/* SERVICES PAGE */
 
 #services {
