@@ -578,6 +578,7 @@ button {
 	} .column-one, .column-two, .column-three {
 		margin-bottom: 25px;
 	} .simple-header {
+		width: 95%;
 		font-size: 21px;
 	}
 }
@@ -797,7 +798,7 @@ button {
 }
 
 .contact-column,
-.logo-column {
+.thank-you-column {
 	width: 50%;
 	height: auto;
 	float: left;
@@ -807,7 +808,7 @@ button {
 	border: 2px solid white;
 }
 
-.logo-column p {
+.thank-you-column p {
 	color: #fff;
 	text-align: left;
 	margin: 0px 100px;
@@ -874,10 +875,11 @@ textarea:focus, input:focus {
 }
 @media screen and (max-width: 440px) {
 	.contact-column,
-	.logo-column {
+	.thank-you-column {
 		width: 100%;
 		float: none;
-	} .logo-column p {
+		margin-bottom: 20px;
+	} .thank-you-column p {
 		margin: 10px 15px 35px 15px;
 		font-size: 17.5px;
 		text-align: center;
@@ -899,11 +901,11 @@ textarea:focus, input:focus {
   visibility: hidden; 
   pointer-events: none;
 }
-						/* FOOTER */
+								/* FOOTER */
 
 footer {
 	width: 100%;
-	height: 250px;
+	height: auto;
 	display: flex;
 	justify-content: space-between;
 }
@@ -911,12 +913,9 @@ footer {
 .css-logo {
 	width: 200px;
 	height: 200px;
-	opacity: 1;
 }
 
 .back-to-top {
-	/*justify-content: center;
-	align-items: center;*/
 	width: 200px;
 	height: 42px;
 	background: #1b2836;
@@ -934,9 +933,19 @@ footer {
 
 .designer {
 	width: 400px;
-	height: 100%;
+	height: auto;
 	display: flex;
 	justify-content: flex-end;
+	text-align: center;
+}
+
+.designer a {
+	position: relative;
+	top: 85px;
+	right: 168px;
+	width: 85px;
+	height: 85px;
+
 }
 
 .logo-design {
@@ -944,16 +953,38 @@ footer {
 	height: 100%;
 }
 
+.copyright {
+	width: 100%;
+	height: auto;
+	bottom: 5px;
+	text-align: center;
+	letter-spacing: 3.5px;
+}
+
 @media screen and (max-width: 770px) {
 	footer {
 		flex-direction: column;
 		align-items: center;
+		font-size: 17.5px;
+		margin: 0px;
 	} .back-to-top {
 		position: static;
 		margin-bottom: 20px;
 		margin-top: 2px;
 	} .logo-design {
 		text-align: center;
+		align-items: center;
+	} .css-logo {
+		width: 150px;
+		height: 150px;
+	} .designer {
+		width: 95%;
+	} .copyright {
+		position: relative;
+		top: 135px;
+		margin: 0px;
+		font-size: 15px;
+		width: 80%;
 	}
 }
 
