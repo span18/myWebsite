@@ -769,10 +769,6 @@ button {
   pointer-events: none;
 }
 
-/*@media screen and (max-width: 850px) {
-
-}*/
-
 @media screen and (max-width: 770px) {
 	.slideshow-container {
 		width: 100%;
@@ -784,7 +780,12 @@ button {
 		height: auto;
 		align-items: center;
 	}
+}
 
+@media screen and (max-width: 440px) {
+	.title {
+		font-size: 24px;
+	}
 }
 
 								/* CONTACT PAGE */
