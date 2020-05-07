@@ -603,12 +603,12 @@ button {
 }
 
 .fade-up {
-	opacity: 0;
+	opacity: 1;
 	margin-top: 0px;
 }
 
 .fade-down {
-	opacity: 0;
+	opacity: 1;
 	margin-top: -80px;
 }
 
