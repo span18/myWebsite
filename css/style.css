@@ -57,6 +57,14 @@ li:hover {
 	background: #343f7f;
 }
 
+.button {
+    display: none;
+}
+
+/*.main-nav {
+            display: none;
+        }*/
+
 
 					/* TAB BAR TRIANGLE */
 /*nav li:hover:before {
@@ -116,6 +124,18 @@ li .active:before  {
 		font-size: 14px;
 		letter-spacing: 1px;
 		text-transform: uppercase;
+	} ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	} a {
+		display: block;
+	} .button {
+		display: block;
+		font-size: 22px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
 	}
 }
 

@@ -16,14 +16,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 10000); // Change image every 2 seconds
-}
-
-    // NAV BAR TOGGLE
-    
-// let mainNav = document.getElementById('js-menu');
-// let navBarToggle = document.getElementById('js-navbar-toggle');
-
-// navBarToggle.addEventListener('click', function () {
-
-// mainNav.classList.toggle('active');
-// });
+}  
