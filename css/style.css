@@ -137,10 +137,11 @@ li .active:before  {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		border-radius: 5px;
-	} #navbar {
-		display: block;
+	} li {
+			display: none;
 	}
 }
+
 							/* HOME PAGE */
 
 .hero {
