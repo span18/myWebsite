@@ -124,10 +124,11 @@ li .active:before  {
 		letter-spacing: 1.3px;
 		line-height: 2.3em;
 		text-transform: uppercase;
-	} ul {
+	} nav ul {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		background-color: #515EA9;
 	} .button {
 		display: block;
 		font-size: 25px;
@@ -139,10 +140,13 @@ li .active:before  {
 	} #navbar {
 		position: static;
 		margin-top: 72px;
+		background-color: #515EA9;
 	} .block {
 		display: none;
 	} nav li {
 		width: 90px;
+	} li .active:before {
+		border-bottom-color: #515EA9;
 	}
 }
 
@@ -294,11 +298,12 @@ li .active:before  {
 
 @media screen and (max-width: 420px) {
 	.hero {
-		height: 100vh;
+		margin-top: -22px;
+		height: 500px;
 	} .hero-title {
 		font-size: 35px;
-		margin-top: -200px;
-		margin-bottom: 130px;
+		margin-top: -150px;
+		margin-bottom: 40px;
 		padding: 4px 0px;
     	text-shadow: none;
 	} .hero-subtitle {
