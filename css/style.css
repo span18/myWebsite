@@ -52,7 +52,6 @@ nav li {
   color: inherit;
 }
 
-
 li:hover {
 	background: #343f7f;
 }
@@ -140,6 +139,11 @@ li .active:before  {
 	} li {
 			display: none;
 	}
+}
+
+@media screen and (min-width: 450px) {
+	li { 
+	display: block !important }
 }
 
 							/* HOME PAGE */
