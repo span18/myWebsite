@@ -386,7 +386,7 @@ li .active:before  {
 		background: #29B2DF;
 		height: 450px;
 	}.aboutme-text p {
-		width: 100%;
+		width: 94%;
 		height: 300px;
 		font-size: 17.5px;
 		margin-top: 0px;
@@ -401,8 +401,8 @@ li .active:before  {
 		left: 17px;
 	} .quotation-one {
 		position: relative;
-		top: -55px;
-		left: 279px;
+		top: -48px;
+		left: 340px;
 	} .title {
 		margin-top: 0;
 	}
@@ -975,7 +975,7 @@ footer {
 }
 
 .logo-design {
-	width: 400px;
+	width: 200px;
 	height: 100%;
 }
 
