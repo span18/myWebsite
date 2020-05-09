@@ -125,9 +125,10 @@ li .active:before  {
 		line-height: 2.3em;
 		text-transform: uppercase;
 	} ul {
-		display: flex;
 		flex-direction: column;
 		align-items: center;
+		position: static;
+		height: 100px;
 	} a {
 		display: block;
 	} .button {
@@ -138,7 +139,11 @@ li .active:before  {
 		border-radius: 5px;
 	} li {
 			display: none;
-	}
+	} #navbar {
+		position: static;
+		margin-top: 50px;
+		height: 50px;
+	} 
 }
 
 @media screen and (min-width: 450px) {
