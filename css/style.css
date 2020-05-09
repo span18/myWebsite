@@ -127,10 +127,7 @@ li .active:before  {
 	} ul {
 		flex-direction: column;
 		align-items: center;
-		position: static;
-		height: 100px;
-	} a {
-		display: block;
+		justify-content: center;
 	} .button {
 		display: block;
 		font-size: 25px;
@@ -141,14 +138,18 @@ li .active:before  {
 			display: none;
 	} #navbar {
 		position: static;
-		margin-top: 50px;
-		height: 50px;
-	} 
+		margin-top: 72px;
+	} .block {
+		display: none;
+	} nav li {
+		width: 90px;
+	}
 }
 
 @media screen and (min-width: 450px) {
 	li { 
-	display: block !important }
+	display: block !important;
+	}
 }
 
 							/* HOME PAGE */
