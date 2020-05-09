@@ -155,13 +155,11 @@ li .active:before  {
 							/* HOME PAGE */
 
 .hero {
-    position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*overflow: hidden;*/
     background: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,7 +279,6 @@ li .active:before  {
 @media screen and (max-width: 745px) {
 	.hero {
 		width: 100%;
-		height: 500px; 
 	} .hero-title {
 		font-size: 65px;
     	border-top: 2px solid white;
@@ -381,7 +378,7 @@ li .active:before  {
 	.about-me {
 		background: #29B2DF;
 		height: 450px;
-		margin-top: 0;
+		margin-top: 50;
 	}.aboutme-text p {
 		width: 100%;
 		height: 300px;
