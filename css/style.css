@@ -300,7 +300,8 @@ li .active:before  {
 		height: 100vh;
 	} .hero-title {
 		font-size: 35px;
-		margin-top: -74px;
+		margin-top: -200px;
+		margin-bottom: 130px;
 		padding: 4px 0px;
     	text-shadow: none;
 	} .hero-subtitle {
