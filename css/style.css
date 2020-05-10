@@ -257,7 +257,7 @@ li .active:before  {
 .logo {
 	position: absolute;
 	top: 13%;
-	left: 1%;
+	left: 2%;
 	width: 53px;
 	height: 51px;
 }
@@ -977,8 +977,9 @@ footer {
 
 .css-logo {
 	width: 200px;
-	height: 200px;
+	height: 175px;
 	padding-right: 25px;
+	margin-top: 50px;
 }
 
 .back-to-top {
@@ -987,7 +988,7 @@ footer {
 	background: #1b2836;
 	position: relative;
 	top: 2px;
-	left: 45%;
+	left: 659px;
 	font-size: 20px;
 	color: #fff;
 	font-weight: bold;
@@ -1004,6 +1005,7 @@ footer {
 	justify-content: flex-end;
 	text-align: center;
 	padding-right: 25px;
+	margin-top: 50px;
 }
 
 .designer a {
@@ -1017,9 +1019,9 @@ footer {
 .logo-design {
 	width: 200px;
 	height: 200px;
-	margin-top: 50px;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-top: 62px;
+	margin-right: 270px;
+	margin-left: 260px;
 }
 
 .copyright {
@@ -1035,7 +1037,8 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		font-size: 17.5px;
-		margin: 0px;
+		margin-left: auto;
+		margin-right: auto; 
 	} .back-to-top {
 		position: static;
 		margin-bottom: 20px;
@@ -1043,17 +1046,31 @@ footer {
 	} .logo-design {
 		text-align: center;
 		align-items: center;
+		margin-top: 30px;
 	} .css-logo {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 145px;
+		margin-top: 30px;
+		padding: 0;
 	} .designer {
-		width: 95%;
+		width: 100%;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		display: flex;
+		text-align: center;
+		align-items: center;
 	} .copyright {
 		position: relative;
 		top: 135px;
 		margin: 0px;
 		font-size: 15px;
-		width: 80%;
+		width: 100%;
+	} .designer h2 {
+		width: 100%;
+	} .copyright h2 {
+		margin-top: 0;
 	}
 }
 
