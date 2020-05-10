@@ -753,6 +753,8 @@ button {
 		text-transform: uppercase;
 	} .number-style {
 		top: 55px;
+	} .process-container {
+		overflow: hidden;
 	}
 }
 						/* SCREEN RESPONSIVE END */
