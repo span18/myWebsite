@@ -344,12 +344,16 @@ li .active:before  {
 }
 
 .quotation {
+	width: 37px;
+	height: 26px;
 	position: relative;
 	top: 76px;
 	left: 211px;
 }
 
 .quotation-one {
+	width: 37px;
+	height: 26px;
 	position: relative;
 	top: -55px;
 	left: 700px;
@@ -368,16 +372,6 @@ li .active:before  {
   pointer-events: none;
 }
 					/* END */
-
-
-@media screen and (max-width: 770px) {
-	 .quotation,
-	.quotation-one {
-		width: 37px;
-		height: 26px;
-	}
-}
-
 
 @media screen and (max-width: 750px) {
 	.about-me {
