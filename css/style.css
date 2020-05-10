@@ -398,10 +398,9 @@ li .active:before  {
 @media screen and (max-width: 440px) {
 	.about-me {
 		background: #29B2DF;
-		height: 450px;
+		height: 396px;
 	}.aboutme-text p {
 		width: 94%;
-		height: 300px;
 		font-size: 17.5px;
 		margin-top: 0px;
 		margin-left: 10px;
@@ -431,6 +430,13 @@ li .active:before  {
 		left: 307px;
 	}
 }
+
+@media screen and (max-width: 360px) {
+	.quotation,
+	.quotation-one {
+		display: none;
+	}
+}
 	
 	
 
@@ -440,7 +446,7 @@ li .active:before  {
 						/* SERVICES PAGE */
 
 #services {
-	margin-top: 80px;
+	margin-top: 10px;
 }
 
 .row {
@@ -816,13 +822,8 @@ button {
   pointer-events: none;
 }
 
-@media screen and (max-width: 770px) {
-	.slideshow-container {
-		width: 100%;
-		height: auto;
-		text-align: center;
-		margin: 0;
-	} img {
+@media screen and (max-width: 850px) {
+	 img {
 		width: 100%;
 		height: auto;
 		align-items: center;
