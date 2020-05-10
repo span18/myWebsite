@@ -369,7 +369,7 @@ li .active:before  {
 }
 					/* END */
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 750px) {
 	.about-me {
 		height: 500px;
 	} .quotation,
@@ -378,6 +378,9 @@ li .active:before  {
 		height: 26px;
 	} .title {
 		margin-top: 0;
+	} .aboutme-text p {
+		width: 94%;
+		margin-left: 10px;
 	}
 }
 
