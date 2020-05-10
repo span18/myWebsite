@@ -369,18 +369,28 @@ li .active:before  {
 }
 					/* END */
 
-@media screen and (max-width: 750px) {
-	.about-me {
-		height: 500px;
-	} .quotation,
+
+@media screen and (max-width: 770px) {
+	 .quotation,
 	.quotation-one {
 		width: 37px;
 		height: 26px;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+	.about-me {
+		height: 500px;
 	} .title {
 		margin-top: 0;
 	} .aboutme-text p {
 		width: 94%;
 		margin-left: 10px;
+	} .quotation-one {
+		left: 630px;
+	} .quotation {
+		left: 22px;
 	}
 }
 
@@ -399,11 +409,9 @@ li .active:before  {
 		line-height: 1.5em;
 		letter-spacing: 1.3px;
 	} .quotation {
-		position: relative;
 		top: 41px;
 		left: 17px;
 	} .quotation-one {
-		position: relative;
 		top: -48px;
 		left: 297px;
 	} .title {
