@@ -416,10 +416,19 @@ li .active:before  {
 	} .quotation-one {
 		display: block;
 		top: -33px;
-		left: 307px;
+		left: 355px;
 	} .title {
 		margin-top: 0;
 	}
+}
+
+@media screen and (max-width: 380px) {
+	.quotation {
+		top: 37px;
+		left: 20px;
+	} .quotation-one {
+		top: -33px;
+		left: 307px;
 }
 	
 	
