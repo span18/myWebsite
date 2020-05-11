@@ -238,7 +238,7 @@ li .active:before  {
 	}
 }*/
 
-.main-logo {
+.logo-animation {
 	position: relative;
 	top: -178px;
 	left: -486px;
@@ -246,12 +246,14 @@ li .active:before  {
 	height: 170px;
 	/*opacity: 0.4;*/
 	/*transform: translateX(-500px);*/
-    animation: 4s main ease-in-out forwards;
+    animation: 2s main ease-in-out forwards;
 	}
 
+.logo-animation > img {
+}
 	@keyframes main {
-		0% { transform: rotate(180deg) translateX(800px) }
-  100% { transform: translateX(0px);
+		0% { transform: rotate(100deg) translateX(-500px) }
+  		100% { transform: rotate(0deg) translateX(0px);
   }
 }
 
@@ -274,7 +276,7 @@ li .active:before  {
 .logo {
 	position: absolute;
 	top: 13%;
-	left: 2%;
+	left: 9px;
 	width: 53px;
 	height: 51px;
 }
@@ -327,7 +329,7 @@ li .active:before  {
 		position: relative;
 		top: 134px;
 		font-size: 20px;
-	} .main-logo {
+	} .logo-animation {
 		display: none;
 	}
 }
@@ -348,6 +350,7 @@ li .active:before  {
 		position: relative;
 		top: 203px;
 	}
+
 }
 
 						/* ABOUT ME */
@@ -705,6 +708,7 @@ button {
 .test-column:hover > .number-style-four,
 .maintain-column:hover > .number-style-five {
 	color: #404e9c;
+	animation: jumpone 2s ease;
 }
 
 .plan-column h2,
@@ -732,25 +736,6 @@ button {
 	color: red;
 }
 
-.number-style-one {
-	animation: jumpone 2s ease 15s 1;
-}
-
-.number-style-two {
-	animation: jumpone 2s ease 16s 1;
-}
-
-.number-style-three {
-	animation: jumpone 2s ease 17s 1;
-}
-
-.number-style-four {
-	animation: jumpone 2s ease 18s 1;
-}
- 
-.number-style-five {
-	animation: jumpone 2s ease 19s 1;
-}
 
     @keyframes jumpone {
         0%   { transform: scale(1,1)      translateY(0); }
