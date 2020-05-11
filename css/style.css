@@ -183,7 +183,7 @@ li .active:before  {
     text-shadow: 2px 2px;
     font-size: 100px;
     font-weight: 800;
-    margin-top: -359px;
+    margin-top: -320px;
     letter-spacing: 2px;
     text-transform: uppercase;
    /* transform: translateY(-1000px);
@@ -195,7 +195,7 @@ li .active:before  {
 
 .hero-subtitle {
 	position: relative;
-	top: 225px;
+	top: 240px;
 	color: #fff;
 	font-family: 'Segoe UI', Roboto, Open Sans, sans-serif;
 	font-size: 35px;
@@ -240,7 +240,7 @@ li .active:before  {
 
 .main-logo {
 	position: relative;
-	top: -217px;
+	top: -178px;
 	left: -486px;
 	width: 170px;
 	height: 170px;
