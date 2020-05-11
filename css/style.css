@@ -183,7 +183,7 @@ li .active:before  {
     text-shadow: 2px 2px;
     font-size: 100px;
     font-weight: 800;
-    margin-top: -130px;
+    margin-top: -359px;
     letter-spacing: 2px;
     text-transform: uppercase;
    /* transform: translateY(-1000px);
@@ -237,6 +237,23 @@ li .active:before  {
 		height: 100vh;
 	}
 }*/
+
+.main-logo {
+	position: relative;
+	top: -186px;
+	left: -464px;
+	width: 200px;
+	height: 200px;
+	/*opacity: 0.4;*/
+	transform: translateZ(-500px);
+    animation: 1.2s main ease-in-out forwards 1s;
+	}
+
+	@keyframes main {
+  100% {
+    transform: translateZ(0px);
+  }
+}
 
 					/*LOWER TEXT ONTO PAGE */
 
@@ -310,6 +327,8 @@ li .active:before  {
 		position: relative;
 		top: 134px;
 		font-size: 20px;
+	} .main-logo {
+		display: none;
 	}
 }
 
@@ -374,6 +393,10 @@ li .active:before  {
 	position: relative;
 	top: -55px;
 	left: 700px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
 
