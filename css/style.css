@@ -207,17 +207,18 @@ li .active:before  {
 	animation-delay: 2.5s;
 	opacity: 0;*/
 }
-    
- /* @keyframes mainFadeIn {
+ 
+/*
+  @keyframes mainFadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-}*/
+}
 
-/*@keyframes slideDown {
+@keyframes slideDown {
   100% {
     transform: translateY(0px);
     opacity: 1;
@@ -244,24 +245,16 @@ li .active:before  {
 	left: -486px;
 	width: 170px;
 	height: 170px;
-	/*opacity: 0.4;*/
-	/*transform: translateX(-500px);*/
-    animation: 2s main ease-in-out forwards;
-	}
-
-.logo-animation > img {
+    -webkit-animation: main ease forwards;
+	-o-animation: main ease forwards;
+    animation: 2.5s main ease forwards;
 }
+
 	@keyframes main {
-		0% { transform: rotate(100deg) translateX(-500px) }
-  		100% { transform: rotate(0deg) translateX(0px);
+		0% { -ms-transform: rotate(100deg); transform: rotate(100deg) translateX(-600px) }
+  		100% { transform: rotate(0deg); -ms-transform: rotate(0deg) translateX(0px);
   }
 }
-
-					/*LOWER TEXT ONTO PAGE */
-
-					/* FINISHED */
-
-
 
 					 /* HOME PG - FIXED LOGO & EMAIL SECTION */ 
 #fixed {
@@ -313,7 +306,7 @@ li .active:before  {
 	} .hero-subtitle {
 		font-size: 45px;
 	} .logo-animation {
-		left: -568px;
+		left: -578px;
 	}
 }
 
@@ -994,7 +987,7 @@ footer {
 	width: 200px;
 	height: 175px;
 	padding-right: 25px;
-	margin-top: 50px;
+	margin-top: 58px;
 }
 
 .back-to-top {
@@ -1015,20 +1008,24 @@ footer {
 
 .designer {
 	width: 400px;
-	height: auto;
+	height: 165px;
+	font-size: 17.5px;
 	display: flex;
 	justify-content: flex-end;
 	text-align: center;
 	padding-right: 25px;
-	margin-top: 50px;
+	margin-top: 64px;
 }
 
 .designer a {
 	position: relative;
 	top: 85px;
-	right: 168px;
-	width: 85px;
+	right: 180px;
+	width: 120px;
 	height: 85px;
+	font-size: 19px;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
 .logo-design {
