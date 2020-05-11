@@ -312,6 +312,8 @@ li .active:before  {
 		font-size: 125px;
 	} .hero-subtitle {
 		font-size: 45px;
+	} .logo-animation {
+		left: -568;
 	}
 }
 
