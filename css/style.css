@@ -313,7 +313,14 @@ li .active:before  {
 	} .hero-subtitle {
 		font-size: 45px;
 	} .logo-animation {
-		left: -568;
+		left: -568px;
+	}
+}
+
+
+@media screen and (max-width: 1030px) {
+	.logo-animation {
+		display: none;
 	}
 }
 
@@ -331,8 +338,6 @@ li .active:before  {
 		position: relative;
 		top: 134px;
 		font-size: 20px;
-	} .logo-animation {
-		display: none;
 	}
 }
 
