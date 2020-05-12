@@ -805,7 +805,7 @@ button {
 	text-align: center;
 }
 
-.dot {
+/*.dot {
 	position: static;
 	color: black;
 	z-index: 1;
@@ -813,7 +813,7 @@ button {
 	height: 55px;
 	opacity: 1;
 	text-align: center;
-}
+}*/
 
 .active {
   background-color: none;
