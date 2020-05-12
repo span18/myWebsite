@@ -314,6 +314,8 @@ li .active:before  {
 @media screen and (max-width: 1030px) {
 	.logo-animation {
 		display: none;
+	} .hero-title {
+		margin-top: -112px; ;
 	}
 }
 
@@ -1064,15 +1066,12 @@ textarea:focus, input:focus {
 		width: 100%;
 		float: none;
 		margin-top: 30px;
-	} .css-logo {
-		width: 200px;
-		height: 155px;
 	} .designer {
 		height: auto;
 		padding: 10px;
 		background-color: #515EA9;
-	} .copyright {
-		position: static;
+	} .copyright h2 {
+		font-size: 20px;
 	} .designer a {
 		position: static;
 		letter-spacing: 1em;
