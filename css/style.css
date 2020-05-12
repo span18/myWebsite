@@ -1029,6 +1029,7 @@ textarea:focus, input:focus {
 .designer a {
 	letter-spacing: 1em;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .designer h3 {
@@ -1038,8 +1039,9 @@ textarea:focus, input:focus {
 }
 
 .logo-design {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: auto;
+	margin-top: -33px;
 }
 
 .copyright {
@@ -1079,6 +1081,8 @@ textarea:focus, input:focus {
 		color: #fff;
 	} .designer h3 {
 		margin: 0;
+	} .logo-design {
+		width: 325px;
 	}
 }
 
