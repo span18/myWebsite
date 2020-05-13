@@ -5,7 +5,7 @@
 	$mobile = $_POST["mobile"];
 	$comments = $_POST["comments"];
 
-	$email_from = "joe@bloggs";
+	$email_from = "$name";
 
 	$email_subject = "New Form Submission";
 
