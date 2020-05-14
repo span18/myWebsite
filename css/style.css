@@ -164,7 +164,7 @@ li .active:before  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/banner.jpg);
+    background: url("https://dj-webdesign.co.uk/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
