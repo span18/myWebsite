@@ -164,7 +164,7 @@ li .active:before  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("https://span18.github.io/myWebsite/images/banner.jpg");
+    background: url("https://dj-webdesign.co.uk/images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -364,7 +364,7 @@ li .active:before  {
 	font-size: 20px;
 	letter-spacing: 1.5px;
 	color: #404e9c;
-	background: url("../images/banner-two.jpg");
+	background: url("https://dj-webdesign.co.uk/images/banner-two.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
