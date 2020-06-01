@@ -14,7 +14,7 @@
 					"User Mobile: $mobile.\n".
 					"User Message: $comments.\n";
 
-	$to = "dmjames04@yahoo.com";
+	$to = "daniel@dj-webdesign.co.uk";
 
 	$headers = "From: $email_from \r\n";
 
