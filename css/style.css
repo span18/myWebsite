@@ -147,14 +147,22 @@ li:hover {
 
  /* INFOMATION BAR UNDER MAIN IMAGE */
 
-.info-bar-container, .row {
+.info-bar-container, .info-row {
 	width: 100%;
+	height: auto;
 }
 
-.column {
+.info-column {
 	width: 25%;
+	height: auto;
+	padding-top: 5px;
 	float: left;
 	text-align: center;
+}
+
+.info-column h3 {
+	margin-top: 5px;
+	padding-top: 0px;
 }
 
 
@@ -170,16 +178,16 @@ li:hover {
 	padding-top: 5px;
 }
 
-.row::after {
+.info-row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-hr {
+/*hr {
     color: #ffd399;
     width: 2px;
-}
+}*/
 
 @media screen and (max-width: 740px) {
     .column {
