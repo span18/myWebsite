@@ -25,9 +25,6 @@ body {
 					/* NAV BAR */
 #navbar {
   width: 100%;
-  position: fixed;
-  top: 47px;
-  left: 0px;
   cursor: pointer;
   font-size: 22px;
   line-height: 34px;
@@ -35,10 +32,12 @@ body {
   text-align: center;
   z-index: 10;
   color: #fff;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul {
-  width: 100%;
+  width: 65%;
   display: flex;
   background-color: #404e9c;
   padding-left: 0;
@@ -46,7 +45,6 @@ nav ul {
 
 nav li {
   width: 20%;
-  position: relative;
   text-decoration: none;
   list-style-type: none;
   color: inherit;
@@ -60,55 +58,7 @@ li:hover {
     display: none;
 }
 
-/*.main-nav {
-            display: none;
-        }*/
 
-
-					/* TAB BAR TRIANGLE */
-/*nav li:hover:before {
-	top: 100%;
-	border: solid transparent;
-	content: '';
-	position: absolute;
-	pointer-events: none;
-	border-bottom-color: #343f7f;
-	border-width: 20px;
-	left: 50%;
-	margin-left: -20px;
-	-webkit-transform: translateY(0%) rotate(140deg);
-	-moz-transform: translateY(0%) rotate(140deg);
-	-o-transform: translateY(0%) rotate(140deg);
-	-ms-transform: translateY(0%) rotate(140deg);
-	transform: translateY(0%) rotate(180deg);
-}*/
-
-li .active:before  {
-	top: 100%;
-	border: solid transparent;
-	content: '';
-	position: absolute;
-	pointer-events: none;
-	border-bottom-color: #404e9c;
-	border-width: 20px;
-	left: 50%;
-	margin-left: -20px;
-	-webkit-transform: translateY(0%) rotate(140deg);
-	-moz-transform: translateY(0%) rotate(140deg);
-	-o-transform: translateY(0%) rotate(140deg);
-	-ms-transform: translateY(0%) rotate(140deg);
-	transform: translateY(0%) rotate(180deg);
-}
-
-.block {
-	width: 100%;
-	height: 25px;
-	position: absolute;
-	top: 105px;
-	left: 0;
-	background-color: #fff;
-	z-index: 1;
-}
 
 							/* RESPONSIVE */
 
@@ -161,14 +111,14 @@ li .active:before  {
 .hero {
     width: 100%;
     height: 100vh;
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
     background: url("https://dj-webdesign.co.uk/images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-color: #515EA9;
+    background-color: #515EA9;*/
 }
 
 .hero-content {
@@ -201,44 +151,8 @@ li .active:before  {
 	font-size: 35px;
 	font-weight: 200;
 	letter-spacing: 2px;
-/*	-webkit-animation: mainFadeIn 2s forwards;
-	-o-animation: mainFadeIn 2s forwards;
-	animation: mainFadeIn 2s forwards;
-	animation-delay: 2.5s;
-	opacity: 0;*/
 }
  
-/*
-  @keyframes mainFadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes slideDown {
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}*/
-
-/*@media screen and (max-width: 740px) {
-	.hero {
-		width: 100%;
-		height: 480px;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.hero {
-		width: 100%;
-		height: 100vh;
-	}
-}*/
-
 .logo-animation {
 	position: relative;
 	top: -178px;
