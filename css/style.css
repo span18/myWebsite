@@ -1089,22 +1089,28 @@ label {
 								/* CONTACT PAGE */
 
 .contact-container {
-	background: linear-gradient(to bottom,#132d50 0,#1b2836 100%);
-}
+	width: 100%;
+	height: auto;
+	margin-top: 125px;
+	background: linear-gradient(to bottom,#e5a326 0,#f6de80 90%);
 
-.contact-title {
-	opacity: 0;
 }
 
 .contact-column,
 .thank-you-column {
-	width: 50%;
+	width: 45%;
 	height: auto;
 	float: left;
 }
 
-.contact-form {
-	border: 2px solid white;
+#contact-form {
+	width: 380px;
+	position: relative;
+	top: -80px;
+	left: 130px;
+	border: 1px solid #4c220a;
+	border-radius: 8px;
+	box-shadow: 0px 10px 18px #71654e;
 }
 
 .thank-you-column p {
@@ -1133,6 +1139,10 @@ label {
 	display: none;
 }
 
+.contact-title {
+	color: #4c220a;
+	border-bottom: 7px solid #e5a326;
+}
 
 form {
 	width: 100%;
@@ -1154,7 +1164,7 @@ textarea {
 }
 
 input[type=submit] {
-	background-color: blue;
+	background: radial-gradient(#ffcc66, #ff9933);
 	color: #fff;
 }
 
